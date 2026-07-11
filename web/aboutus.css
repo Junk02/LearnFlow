@@ -1,0 +1,97 @@
+.team-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
+    max-width: 680px;
+    margin-top: 12px;
+}
+
+.member-card {
+    flex: 1;
+    background-color: rgba(15, 23, 42, 0.4);
+    border: 1px solid var(--border-color);
+    backdrop-filter: blur(8px);
+    padding: 32px 24px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.member-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+    background-color: rgba(30, 41, 59, 0.6);
+    border: 2px solid #334155;
+    transition: all 0.3s ease;
+}
+
+.member-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #f1f5f9;
+    margin-bottom: 6px;
+}
+
+.member-role {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+}
+
+.member-github {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: rgba(30, 41, 59, 0.5);
+    border: 1px solid #334155;
+    color: var(--text-secondary);
+    transition: all 0.25s ease;
+}
+
+.junk-card:hover {
+    border-color: rgba(56, 189, 248, 0.4);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(56, 189, 248, 0.05);
+}
+
+.junk-card:hover .member-avatar {
+    background-color: rgba(56, 189, 248, 0.1);
+    border-color: var(--neon-blue);
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+}
+
+.junk-card:hover .member-github {
+    background: linear-gradient(135deg, #0284c7, var(--neon-blue));
+    color: #ffffff;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
+}
+
+.pvkevra-card:hover {
+    border-color: rgba(192, 132, 252, 0.4);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(192, 132, 252, 0.05);
+}
+
+.pvkevra-card:hover .member-avatar {
+    background-color: rgba(192, 132, 252, 0.1);
+    border-color: var(--neon-purple);
+    box-shadow: 0 0 15px rgba(192, 132, 252, 0.3);
+}
+
+.pvkevra-card:hover .member-github {
+    background: linear-gradient(135deg, var(--accent), #7c3aed);
+    color: #ffffff;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+}

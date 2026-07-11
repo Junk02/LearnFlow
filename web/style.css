@@ -381,21 +381,21 @@ body {
 }
 
 .author-link.junk {
-    color: var(--neon-purple);
-}
-
-.author-link.junk:hover {
-    background-color: rgba(192, 132, 252, 0.1);
-    transform: translateY(-1px);
-    text-shadow: 0 0 8px rgba(192, 132, 252, 0.4);
-}
-
-.author-link.pvkevra {
     color: var(--neon-blue);
 }
 
-.author-link.pvkevra:hover {
+.author-link.junk:hover {
     background-color: rgba(56, 189, 248, 0.1);
     transform: translateY(-1px);
     text-shadow: 0 0 8px rgba(56, 189, 248, 0.4);
+}
+
+.author-link.pvkevra {
+    color: var(--neon-purple);
+}
+
+.author-link.pvkevra:hover {
+    background-color: rgba(192, 132, 252, 0.1);
+    transform: translateY(-1px);
+    text-shadow: 0 0 8px rgba(192, 132, 252, 0.4);
 }
