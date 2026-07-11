@@ -10,6 +10,6 @@ def extract_text(pdf_path):
     return full_text
 
 if __name__ == "__main__":
-    path = "byte_of_python.pdf"
+    path = "../byte_of_python.pdf"
     text = extract_text(path)
     print(text)
