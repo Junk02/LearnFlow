@@ -399,3 +399,61 @@ body {
     transform: translateY(-1px);
     text-shadow: 0 0 8px rgba(192, 132, 252, 0.4);
 }
+
+.upload-zone.error-state .upload-text-main,
+.upload-zone.error-state .upload-text-sub {
+    color: #ef4444;
+}
+
+.upload-zone.error-state {
+    border-color: #ef4444;
+    background-color: rgba(239, 68, 68, 0.05);
+}
+
+.upload-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 16px;
+    width: 100%;
+}
+
+.btn-preview, 
+.btn-submit-file {
+    font-family: inherit;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.btn-preview {
+    background-color: rgba(30, 41, 59, 0.5);
+    border: 1px solid var(--border-color);
+    color: #cbd5e1;
+}
+
+.btn-preview:hover {
+    background-color: rgba(51, 65, 85, 0.8);
+    border-color: #475569;
+    color: #f8fafc;
+}
+
+.btn-submit-file {
+    background: linear-gradient(135deg, var(--accent, #a855f7), #7c3aed);
+    border: none;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.2);
+}
+
+.btn-submit-file:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(124, 58, 237, 0.4);
+}
+
+.btn-preview:active, 
+.btn-submit-file:active {
+    transform: scale(0.97);
+}

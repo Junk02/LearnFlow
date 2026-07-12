@@ -1,0 +1,119 @@
+.main-content {
+    justify-content: flex-start;
+    padding-top: 20px; 
+}
+
+.main-title {
+    font-size: 1.8rem; 
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    margin-bottom: 12px;
+    line-height: 1.15;
+    background: linear-gradient(to right, #ffffff, #e2e8f0, #94a3b8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@media (min-width: 768px) {
+    .main-title { font-size: 2.4rem; } 
+}
+
+.subtitle {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    max-width: 620px;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+.books-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 640px;
+    margin-top: 12px;
+}
+
+.book-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(15, 23, 42, 0.4);
+    border: 1px solid var(--border-color);
+    backdrop-filter: blur(8px);
+    padding: 20px 24px;
+    border-radius: 14px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    gap: 20px;
+}
+
+.book-card:hover {
+    border-color: rgba(168, 85, 247, 0.4);
+    transform: translateY(-2px);
+    background-color: rgba(23, 15, 42, 0.5);
+    box-shadow: 0 8px 24px rgba(168, 85, 247, 0.05);
+}
+
+.book-icon-wrapper {
+    padding: 10px;
+    background-color: rgba(30, 41, 59, 0.6);
+    border-radius: 10px;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.book-card:hover .book-icon-wrapper {
+    background-color: rgba(168, 85, 247, 0.15);
+    color: var(--neon-purple);
+}
+
+.book-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.book-info {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.book-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f1f5f9;
+    margin-bottom: 4px;
+    line-height: 1.4;
+}
+
+.book-meta {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+}
+
+.btn-view-graph {
+    background: rgba(30, 41, 59, 0.8);
+    color: #f1f5f9;
+    border: 1px solid var(--border-color);
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    white-space: nowrap;
+}
+
+.book-card:hover .btn-view-graph {
+    background: linear-gradient(135deg, var(--accent), #7c3aed);
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+}
+
+.btn-view-graph:active {
+    transform: scale(0.97);
+}

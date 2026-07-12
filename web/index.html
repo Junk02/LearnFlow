@@ -20,8 +20,8 @@
                 <span>⚡ LearnFlow</span>
             </div>
             <nav class="nav-menu">
-                <a href="aboutus.html" class="btn-link" style="text-decoration: none; display: flex; align-items: center;">About Us</a>
-                <button class="btn-primary">Sign Up</button>
+                <a href="aboutus.html" class="btn-link" style="text-decoration: none;">About Us</a>
+                <a href="ready.html" class="btn-link" style="text-decoration: none;">Books</a>
             </nav>
         </div>
     </header>
@@ -36,16 +36,18 @@
             Upload your study book or research paper. Our algorithm instantly breaks down the text into core components, concepts, and relations, mapping them out visually.
         </p>
 
-        <div class="upload-zone">
-            <div class="upload-container">
-                <div class="upload-icon-wrapper">
+        <div class="upload-zone" id="uploadZone" onclick="TriggerFileInput(event)">
+            <input type="file" id="fileInput" accept=".pdf" style="display: none;" onchange="HandleFileSelect(this)">
+            
+            <div class="upload-container" id="uploadContainer">
+                <div class="upload-icon-wrapper" id="uploadIconWrapper">
                     <svg class="upload-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6v6m0 0v6m0-6h6m0 0H6"></path>
                     </svg>
                 </div>
-                <div>
-                    <span class="upload-text-main">Upload Book</span>
-                    <span class="upload-text-sub">PDF format only, up to 50 MB</span>
+                <div id="uploadTexts">
+                    <span class="upload-text-main" id="mainText">Upload Book</span>
+                    <span class="upload-text-sub" id="subText">PDF format only, up to 50 MB</span>
                 </div>
             </div>
         </div>
@@ -68,5 +70,6 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
