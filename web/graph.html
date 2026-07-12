@@ -55,6 +55,25 @@
                 <p class="node-card-desc" id="cardDesc" placeholder="Enter description here..."></p>
                 <button class="btn-edit" id="editDescBtn" onclick="toggleEdit('cardDesc', 'editDescBtn')">✏️</button>
             </div>
+
+            <hr class="card-divider">
+            
+            <button class="btn-open-flashcards" id="openFlashcardsBtn" onclick="OpenFlashcardsModal()">Open Flashcards</button>
+        </div>
+
+        <div class="fc-modal-overlay" id="fcModalOverlay" style="display: none;">
+            <div class="fc-modal-window">
+                <button class="fc-modal-close" onclick="CloseFlashcardsModal()">✕</button>
+                
+                <h3 class="fc-modal-title">Review Concept</h3>
+                
+                <div id="flashcardContainer" class="flashcard-container">
+                    </div>
+
+                <div id="flashcardControls">
+                    <span id="fcProgress"></span>
+                </div>
+            </div>
         </div>
     </section>
 
