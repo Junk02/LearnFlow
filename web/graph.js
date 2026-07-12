@@ -18,46 +18,6 @@ let network = null;
 const COLOR_DEFAULT = '#6366f1';
 const COLOR_FROZEN = '#f59e0b';
 
-<<<<<<< Updated upstream
-let currentFlashcards = [];
-let currentCardIndex = 0;
-let correctAnswersCount = 0;
-let isCardFlipped = false;
-let isModalOpen = false;
-
-let isDragging = false;
-let hasMoved = false; 
-let startX = 0;
-let startY = 0;
-let currentX = 0;
-let currentY = 0;
-const SWIPE_THRESHOLD = 120; 
-
-function SkipLoading() {
-    loadingSection.style.display = 'none';
-    
-    const mainContent = document.getElementById('mainContent');
-    if (mainContent !== null) {
-        mainContent.style.display = 'none';
-    }
-    
-    if (siteHeader !== null) {
-        siteHeader.style.display = 'none';
-    }
-    if (siteFooter !== null) {
-        siteFooter.style.display = 'none';
-    }
-
-    graphSection.style.display = 'flex';
-    graphSection.style.height = '100vh';
-    graphSection.style.padding = '0';
-    
-    InitGraphFromBackend();
-}
-
-async function InitGraphFromBackend() {
-    const response = await fetch("http://localhost:8000/graph");
-=======
 async function InitGraphFromBackend() {
     loadingSection.style.display = 'flex';
     graphSection.style.display = 'none';
@@ -71,7 +31,6 @@ async function InitGraphFromBackend() {
     }
 
     const response = await fetch(`http://localhost:8000/graph/${docName}`);
->>>>>>> Stashed changes
     const graphData = await response.json();
 
     NodesArray = graphData.topics.map(n => ({
@@ -502,17 +461,8 @@ function CloseNodeCard() {
     
     nodeCard.style.display = 'none';
     currentOpenNodeId = null;
-<<<<<<< Updated upstream
-
-    CloseFlashcardsModal();
-    currentFlashcards = [];
-    document.getElementById('flashcardContainer').innerHTML = '';
-    document.getElementById('fcProgress').innerText = '';
-}
-=======
 }
 
 window.onload = () => {
     InitGraphFromBackend();
 };
->>>>>>> Stashed changes
