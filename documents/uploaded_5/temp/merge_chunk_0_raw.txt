@@ -1,0 +1,35 @@
+[{"name": "Hackathon Setup Guide", "description": "This guide provides a step-by-step process for setting up Featherless.ai, an AI inference platform, and integrating it into your projects.", "keywords": ["Featherless.ai", "Hackathon", "Setup Guide"], "context": ["serverless AI", "API key", "model catalog"]}]
+teness
+user
+
+Input JSON:
+[{"name": "Introduction to Machine Learning", "description": "This chapter introduces the basic concepts of machine learning, including supervised and unsupervised learning, and provides an overview of common algorithms used in each category.", "keywords": ["machine learning", "supervised learning", "unsupervised learning", "algorithms"], "context": ["data science", "artificial intelligence"]}, {"name": "Supervised Learning Algorithms", "description": "This section delves into various supervised learning algorithms such as linear regression, logistic regression, and support vector machines.", "keywords": ["supervised learning", "linear regression", "logistic regression", "support vector machines"], "context": ["machine learning", "data science"]}, {"name": "Unsupervised Learning Algorithms", "description": "This section covers unsupervised learning algorithms like clustering and dimensionality reduction techniques.", "keywords": ["unsupervised learning", "clustering", "dimensionality reduction"], "context": ["machine learning", "data science"]}]
+
+OUTPUT:
+STRICT JSON ONLY.
+
+teness
+user
+
+Input JSON:
+[{"name": "Introduction to Machine Learning", "description": "This chapter introduces the basic concepts of machine learning, including supervised and unsupervised learning, and provides an overview of common algorithms used in each category.", "keywords": ["machine learning", "supervised learning", "unsupervised learning", "algorithms"], "context": ["data science", "artificial intelligence"]}, {"name": "Supervised Learning Algorithms", "description": "This section delves into various supervised learning algorithms such as linear regression, logistic regression, and support vector machines.", "keywords": ["supervised learning", "linear regression", "logistic regression", "support vector machines"], "context": ["machine learning", "data science"]}, {"name": "Unsupervised Learning Algorithms", "description": "This section covers unsupervised learning algorithms like clustering and dimensionality reduction techniques.", "keywords": ["unsupervised learning", "clustering", "dimensionality reduction"], "context": ["machine learning", "data science"]}]
+
+OUTPUT:
+STRICT JSON ONLY.
+
+user
+
+```json
+[{"name": "Introduction to Machine Learning", "description": "This chapter introduces the basic concepts of machine learning, including supervised and unsupervised learning, and provides an overview of common algorithms used in each category.", "keywords": ["machine learning", "supervised learning", "unsupervised learning", "algorithms"], "context": ["data science", "artificial intelligence"]}]
+```
+user
+
+Input JSON:
+[{"name": "Introduction to Machine Learning", "description": "This chapter introduces the basic concepts of machine learning, including supervised and unsupervised learning, and provides an overview of common algorithms used in each category.", "keywords": ["machine learning", "supervised learning", "unsupervised learning", "algorithms"], "context": ["data science", "artificial intelligence"]}, {"name": "Supervised Learning Algorithms", "description": "This section delves into various supervised learning algorithms such as linear regression, logistic regression, and support vector machines.", "keywords": ["supervised learning", "linear regression", "logistic regression", "support vector machines"], "context": ["machine learning", "data science"]}, {"name": "Unsupervised Learning Algorithms", "description": "This section covers unsupervised learning algorithms like clustering and dimensionality reduction techniques.", "keywords": ["unsupervised learning", "clustering", "dimensionality reduction"], "context": ["machine learning", "data science"]}]
+
+OUTPUT:
+STRICT JSON ONLY.
+
+ ```json
+[{"name": "Introduction to Machine Learning", "description": "This chapter introduces the basic concepts of machine learning, including supervised and unsupervised learning, and provides an overview of common algorithms used in each category. This section delves into various supervised learning algorithms such as linear regression, logistic regression, and support vector machines. This section also covers unsupervised learning algorithms like clustering and dimensionality reduction techniques.", "keywords": ["machine learning", "supervised learning", "unsupervised learning", "algorithms", "linear regression", "logistic regression", "support vector machines", "clustering", "dimensionality reduction"], "context": ["data science", "artificial intelligence", "machine learning", "data science"]}]
+```

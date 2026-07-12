@@ -1,0 +1,99 @@
+Hackathon Setup guide
+Leverage featherless.ai - a serverless AI
+inference platform with unlimited access to
+thousands of open-source AI models. Focus
+on building amazing applications while we
+handle the infrastructure.
+Get Started in 3 Steps
+Sign up for Feather Premium
+→ Scan the QR code or click here
+→ VSHACKS26 will automatically be entered
+→ Enjoy one month for free - you may need to refresh the page to see the changes
+Scan here Have fun!
+Get Started in 3 Steps
+Get your API key
+→ After subscribing, go to the top right, click on your icon, and click on API Keys
+→ Here you can create an API key, keep this API key handy, you'll need it to access the service
+Get Started in 3 Steps
+Choose a model
+→ Go to our model catalog
+→ Pick a model for your use case and copy the model ID
+→ Test with a simple chat completion call!
+Popular Model Options
+DeepSeek-V3.2 MiniMax-M2.5 Kimi-K2.5
+Advanced reasoning and Excellent in agentic tool use Mulitmodal from the ground up
+coding capabilities
+Mistral-Nemo-Instruct GLM-5.1
+Fast and efficient processing Excels in long horizon tasks
+Your First API Call
+Using Python Requests Using OpenAI SDK
+import requests from openai import OpenAI
+response = requests.post( client = OpenAI(
+base_url="https : // a pi.fe a therless. a i/v1",
+url="https : // a pi.fe a therless. a i/v1/ c h a t/ c ompleti api_key=" YOUR _ API _ KEY "
+ons", )
+headers={ response = client.chat.completions.create(
+" A uthoriz a tion": " B e a rer YOUR _ API _ KEY " model=" d eepseek- a i/ D eep S eek- V 3-0324",
+}, messages=[
+json={ {"role": "user", " c ontent": " H ello!"}
+"mo d el": " d eepseek- a i/ D eep S eek- V 3-0324", ]
+"mess a ges": [ )
+{"role": "user", " c ontent": " H ello!"} print(response.choices[0].message.content)
+]
+}
+)
+print(response.json())
+Core API Endpoints
+/v1/chat/completions /v1/completions
+Best for: Chatbots, virtual assistants, Best for: Content generation, text
+conversational applications transformation, data extraction
+Structured messages with roles (system, user, Takes a single prompt string
+assistant)
+Direct control over prompt format
+Maintains conversation context automatically
+Maximum flexibility for custom use cases
+Ideal for interactive user-assistant
+interactions
+Troubleshooting Common Errors
+401 - Unauthenticated 403 - Unauthorized
+API key not recognized. Verify you've copied it Model is gated. Visit the model's page, click
+correctly or generate a new one from account "Unlock Model," and agree to license terms.
+settings.
+500 - Internal Server Error 503 - Service Unavailable
+Request could not be processed. Check for Insufficient capacity or cold model. Retry the
+unsupported parameters in API documentation. request. If it persists after three attempts, report
+on Discord.
+Concurrency Limits
+Featherless operates on a unique model of capacity reservation rather than token-based billing. Your
+subscription tier determines the maximum size and number of concurrent AI model inference calls you can
+make, ensuring consistent performance without unpredictable token costs.
+Model Concurrency Costs
+7B to 15B 1 Qwen 2.5 7B, Llama2 13B
+24B to 34B 2 Qwen 32B Coder, Mistral 3 24B
+70B and 72B 4 Llama 3.3 70B, Qwen 2.5 72B
+Deepseek v3.2, R1 & Kimi-K2.5 4 (Feather Premium only)
+For a more advanced explanation and detailed examples, visit our Concurrency Limits documentation.
+Application
+Guides
+Explore our detailed application
+guides designed to help you
+seamlessly integrate
+Featherless.ai into your existing
+projects and workflows.
+Find these guides and more on
+our documentation page:
+featherless.ai/docs/applicatio
+n-guides
+Video walkthrough
+Below is a video walkthrough that covers this PDF and additionally showcases a live use case of Featherless!
+Google Docs
+Featherless AI - Quick Start and Live Demo.mov
+Ready to Build!
+You now have everything you need to start building amazing AI-powered applications. Here's your action plan:
+1 Test Your Setup 2 Explore Models
+Get your API key and test with a simple Find the right model for your use case in the
+example catalog
+3 Review Examples 4 Start Building
+Check the GitHub cookbook for code samples Begin your hackathon project with confidence
+Quick Links: Sign Up • Model Catalog • Documentation • GitHub
+Good luck with your project! We can't wait to see what you build!

@@ -1,0 +1,618 @@
+[
+  {
+    "name": "A Byte of Python",
+    "description": "A Byte of Python is highly recommended by multiple users for learning Python, especially for beginners and those transitioning from other programming languages. It is praised for its clarity and helpful examples.",
+    "keywords": [
+      "A Byte of Python",
+      "Python",
+      "programming",
+      "tutorial",
+      "beginners"
+    ],
+    "context": [
+      "helpful examples",
+      "clear explanations",
+      "unselfish teaching"
+    ],
+    "id": 0
+  },
+  {
+    "name": "Introduction to Python",
+    "description": "Python is a simple yet powerful programming language that is easy to learn and has efficient high-level data structures. It is ideal for scripting and rapid application development.",
+    "keywords": [
+      "Python",
+      "programming language",
+      "simple",
+      "powerful",
+      "scripting"
+    ],
+    "context": [
+      "Python is both simple and powerful",
+      "Python’s elegant syntax and dynamic typing"
+    ],
+    "id": 1
+  },
+  {
+    "name": "Python's Features",
+    "description": "Python has efficient high-level data structures and a simple but effective approach to object-oriented programming. It is easy to learn and has a simple syntax. Python supports both procedural and object-oriented programming, and it is portable across various platforms. It is also extensible and embeddable, allowing for integration with C/C++ code. Python comes with a vast standard library and a rich ecosystem of third-party libraries, making it versatile for various applications from web development to cryptography.",
+    "keywords": [
+      "high-level data structures",
+      "object-oriented programming",
+      "easy to learn",
+      "simple syntax",
+      "procedural",
+      "portable",
+      "extensible",
+      "embeddable",
+      "standard library",
+      "third-party libraries",
+      "web development",
+      "cryptography"
+    ],
+    "context": [
+      "Python has efficient high-level data structures",
+      "Python’s elegant syntax and dynamic typing",
+      "porting to many platforms",
+      "critical piece of code",
+      "scripting capabilities",
+      "huge indeed",
+      "regular expressions",
+      "unit testing",
+      "web browsers"
+    ],
+    "id": 2
+  },
+  {
+    "name": "Setting Up Python Environment",
+    "description": "Instructions on setting up and using Python development tools such as the Python interpreter, editors (PyCharm, Vim, Emacs), and running Python programs in various environments.",
+    "keywords": [
+      "Python interpreter",
+      "editor",
+      "PyCharm",
+      "Vim",
+      "Emacs",
+      "running Python programs",
+      "installation",
+      "plugins"
+    ],
+    "context": [
+      "terminal",
+      "Mac OS X",
+      "GNU/Linux",
+      "command prompt",
+      "syntax highlighting",
+      "indentation",
+      "programming environment",
+      "install Vim",
+      "install Emacs",
+      "jedi-vim",
+      "ELPY"
+    ],
+    "id": 3
+  },
+  {
+    "name": "Basic Python Programming",
+    "description": "Initial steps in programming Python, including creating and running 'Hello World' programs, understanding Python statements, and using the Python interpreter prompt.",
+    "keywords": [
+      "first steps",
+      "hello world",
+      "Python statements",
+      "case sensitivity",
+      "formatting",
+      "print statement",
+      "interpreter prompt"
+    ],
+    "context": [
+      "create a new file",
+      "run a program",
+      "Python programs",
+      "terminal",
+      "Mac OS X",
+      "GNU/Linux",
+      "command prompt"
+    ],
+    "id": 4
+  },
+  {
+    "name": "Help and Comments in Python",
+    "description": "Information on how to use the built-in help functionality in Python and the role of comments in making code more readable and understandable.",
+    "keywords": [
+      "help functionality",
+      "functions",
+      "statements",
+      "comments",
+      "code",
+      "readability",
+      "explanations"
+    ],
+    "context": [
+      "help('len')",
+      "help('return')",
+      "using help",
+      "explain assumptions",
+      "explain important decisions",
+      "explain important details"
+    ],
+    "id": 5
+  },
+  {
+    "name": "Data Types and Operations",
+    "description": "This topic covers various data types in Python, including integers, floats, and strings, along with operations and expressions. It explains how to perform arithmetic, bitwise, and comparison operations using operators and literals.",
+    "keywords": [
+      "integers",
+      "floats",
+      "strings",
+      "operators",
+      "operands",
+      "arithmetic",
+      "bitwise",
+      "comparison",
+      "format method",
+      "string formatting"
+    ],
+    "context": [
+      "no separate long type",
+      "single quotes",
+      "double quotes",
+      "triple quotes",
+      "multi-line strings",
+      "substitute specifications with arguments",
+      "readability",
+      "flexibility"
+    ],
+    "id": 6
+  },
+  {
+    "name": "Running and Executing Python Programs",
+    "description": "This section explains how to run Python programs using the command line and editor configurations. It covers opening the editor, typing and saving the program, and running the interpreter. Additionally, it discusses the use of braces in Python and the importance of indentation.",
+    "keywords": [
+      "running programs",
+      "command line",
+      "editor configurations",
+      "braces",
+      "indentation",
+      "whitespace",
+      "code blocks"
+    ],
+    "context": [
+      "Run → Edit Configurations",
+      "Script parameters",
+      "python program.py",
+      "__future__ import braces",
+      "leading whitespace",
+      "logical line",
+      "IndentationError"
+    ],
+    "id": 7
+  },
+  {
+    "name": "Program Structure and Syntax",
+    "description": "This topic covers the structure and syntax of Python programs, including logical and physical lines, the use of braces, and operator precedence. It also explains how to use the format() method for string formatting and how to run example programs with variables and literals.",
+    "keywords": [
+      "logical lines",
+      "physical lines",
+      "line joining",
+      "braces",
+      "format method",
+      "string formatting",
+      "example program",
+      "variables",
+      "literal constants",
+      "operator precedence",
+      "evaluation order",
+      "parentheses"
+    ],
+    "context": [
+      "logical line",
+      "physical line",
+      "backslash",
+      "explicit line joining",
+      "Run from __future__ import braces",
+      "interactive Python interpreter",
+      "bit-wise AND",
+      "bit-wise OR",
+      "bit-wise XOR",
+      "bit-wise invert",
+      "operator precedences",
+      "left to right associativity",
+      "expression evaluation"
+    ],
+    "id": 8
+  },
+  {
+    "name": "Expressions in Python",
+    "description": "Expressions in Python include various operators such as arithmetic, bitwise, and comparison operators. They are used to perform calculations and operations on variables and values.",
+    "keywords": [
+      "expressions",
+      "arithmetic operators",
+      "bitwise operators",
+      "comparison operators"
+    ],
+    "context": [
+      "length * breadth",
+      "2 * (length + breadth)",
+      "Python expressions"
+    ],
+    "id": 9
+  },
+  {
+    "name": "Control Flow Statements",
+    "description": "Control flow statements in Python include if, for, and while statements. These are used to change the flow of execution based on conditions. This topic also covers the usage of if, while, and for statements along with their associated break and continue statements in Python.",
+    "keywords": [
+      "control flow",
+      "if statement",
+      "for loop",
+      "while loop",
+      "break",
+      "continue"
+    ],
+    "context": [
+      "decision making",
+      "conditional execution",
+      "program flow",
+      "guessing game",
+      "raw_input",
+      "indentation",
+      "looping statements",
+      "sequence of objects",
+      "loop else block",
+      "input handling"
+    ],
+    "id": 10
+  },
+  {
+    "name": "Functions in Python",
+    "description": "This topic: –: –::::::::::This topic covers the definition and usage of functions in Python, including how to define functions, pass parameters, and handle local variables. It also includes details about the global statement in functions, default argument values, and keyword arguments.",
+    "keywords": [
+      "functions",
+      "definition",
+      "parameters",
+      "local variables",
+      "global statement",
+      "variable scope",
+      "assigning values to top-level variables",
+      "reflecting changes globally",
+      "default arguments",
+      "optional parameters",
+      "function definitions",
+      "keyword arguments",
+      "named parameters",
+      "function calling",
+      "specifying default values",
+      "improving function usability",
+      "simplifying function calls",
+      "selective parameter assignment"
+    ],
+    "context": [
+      "reusable code",
+      "function calls",
+      "scope",
+      "assigning values to top-level variables",
+      "reflecting changes globally",
+      "specifying default values",
+      "improving function usability",
+      "simplifying function calls",
+      "selective parameter assignment"
+    ],
+    "id": 11
+  },
+  {
+    "name": "VarArgs Parameters",
+    "description": "VarArgs parameters allow a function to accept a variable number of arguments, enhancing its flexibility and adaptability to different call scenarios.",
+    "keywords": [
+      "variable arguments",
+      "flexible function definitions",
+      "arbitrary number of parameters"
+    ],
+    "context": [
+      "accepting multiple arguments",
+      "dynamic function behavior"
+    ],
+    "id": 12
+  },
+  {
+    "name": "Variable Arguments in Functions",
+    "description": "This topic explains how to use variable arguments in functions using the *numbers and **keywords syntax, demonstrating their usage through examples.",
+    "keywords": [
+      "variable arguments",
+      "starred parameters",
+      "keyword arguments"
+    ],
+    "context": [
+      "function_varargs.py",
+      "total function",
+      "numbers and keywords"
+    ],
+    "id": 13
+  },
+  {
+    "name": "Using Modules in Python",
+    "description": "This topic explains how to use modules in Python, including importing modules and accessing their functionalities through the sys module.",
+    "keywords": [
+      "modules",
+      "sys",
+      "import",
+      "argv",
+      "sys.path"
+    ],
+    "context": [
+      "command line arguments",
+      "byte-compiled .pyc files",
+      "from ...import statement"
+    ],
+    "id": 14
+  },
+  {
+    "name": "References and Copying Lists",
+    "description": "In Python, variables are references to objects. Modifying a list through one reference affects all references pointing to the same object. To avoid this, a full slice must be used to create a copy of the list.",
+    "keywords": [
+      "references",
+      "copying",
+      "lists",
+      "full slice"
+    ],
+    "context": [
+      "shoplist",
+      "mylist",
+      "assignment",
+      "deletion"
+    ],
+    "id": 15
+  },
+  {
+    "name": "String Methods in Python",
+    "description": "This topic covers various string methods in Python, including startswith, in, find, and join, which are used for manipulating and checking strings.",
+    "keywords": [
+      "strings",
+      "methods",
+      "startswith",
+      "in",
+      "find",
+      "join"
+    ],
+    "context": [
+      "string operations",
+      "checking substrings",
+      "manipulating strings"
+    ],
+    "id": 16
+  },
+  {
+    "name": "Data Structures and Backup Strategies in Python",
+    "description": "This section discusses built-in data structures in Python, emphasizing the importance of understanding these structures for writing efficient programs. It also covers strategies for creating and managing backups, including naming conventions based on the current date and time, and the design of backup scripts using the `os` and `time` modules.",
+    "keywords": [
+      "data structures",
+      "Python",
+      "built-in",
+      "essential",
+      "backup",
+      "script design",
+      "file backup",
+      "directory backup",
+      "zip archive",
+      "time-based",
+      "directory structure",
+      "file naming",
+      "backup management",
+      "user comments",
+      "filename management",
+      "command-line arguments"
+    ],
+    "context": [
+      "program design",
+      "data handling",
+      "programming basics",
+      "problem solving",
+      "program implementation",
+      "file management",
+      "hierarchical storage",
+      "short filenames",
+      "daily directory creation",
+      "directory creation",
+      "zip command usage",
+      "backup verification",
+      "software development lifecycle",
+      "program testing",
+      "code improvement"
+    ],
+    "id": 17
+  },
+  {
+    "name": "Software Development Process",
+    "description": "The software development process involves several phases including analysis, design, implementation, testing and debugging, operation, and maintenance.",
+    "keywords": [
+      "software development",
+      "phases",
+      "analysis",
+      "design",
+      "implementation",
+      "testing",
+      "debugging",
+      "operation",
+      "maintenance"
+    ],
+    "context": [
+      "various phases",
+      "Do the analysis and design",
+      "Test and debug it",
+      "Use it to ensure that it works as expected"
+    ],
+    "id": 18
+  },
+  {
+    "name": "Object-Oriented Programming",
+    "description": "Object-oriented programming involves combining data and functionality within objects, with classes creating new types where objects are instances of the class. Fields and methods are the attributes of a class, and self is a parameter used to refer to the object itself.",
+    "keywords": [
+      "object-oriented programming",
+      "classes",
+      "objects",
+      "fields",
+      "methods",
+      "self",
+      "instance variables",
+      "class variables"
+    ],
+    "context": [
+      "combining data and functionality",
+      "creating a new type",
+      "instances of the class",
+      "self refers to the object itself"
+    ],
+    "id": 19
+  },
+  {
+    "name": "Object-Oriented Programming Basics",
+    "description": "This topic introduces fundamental concepts of Object-Oriented Programming (OOP), including classes, objects, and methods. It explains how to create a simple class and instantiate objects.",
+    "keywords": [
+      "Object-Oriented Programming",
+      "classes",
+      "objects",
+      "methods"
+    ],
+    "context": [
+      "class Person",
+      "pass",
+      "say_hi(self)",
+      "__init__(self, name)"
+    ],
+    "id": 20
+  },
+  {
+    "name": "Inheritance and Polymorphism in Object-Oriented Programming",
+    "description": "This topic covers the concepts of inheritance and polymorphism in object-oriented programming. Inheritance allows a class (subclass) to inherit attributes and methods from another class (superclass), promoting code reuse and subtype relationships. Polymorphism enables a subclass to override a method of the superclass, allowing objects to be treated as instances of their parent class while providing specific implementations.",
+    "keywords": [
+      "inheritance",
+      "polymorphism",
+      "method overriding",
+      "base class",
+      "derived class",
+      "subclasses",
+      "superclass",
+      "SchoolMember",
+      "Teacher",
+      "Student",
+      "init method",
+      "tell method"
+    ],
+    "context": [
+      "common characteristics",
+      "specific characteristics",
+      "SchoolMember",
+      "Teacher",
+      "Student",
+      "init method",
+      "tell method"
+    ],
+    "id": 21
+  },
+  {
+    "name": "Input/Output Operations in Python",
+    "description": "This section explains how to perform input and output operations in Python, including reversing strings to check for palindromes, reading/writing files, and using the pickle module for storing and retrieving Python objects. It also covers file handling, including opening files in different modes and using the readline and close methods.",
+    "keywords": [
+      "input",
+      "output",
+      "raw_input",
+      "print",
+      "string manipulation",
+      "reversing",
+      "files",
+      "reading",
+      "writing",
+      "file handling",
+      "open",
+      "read",
+      "write",
+      "modes",
+      "text mode",
+      "binary mode",
+      "pickle",
+      "storing objects",
+      "persistent storage",
+      "loading objects",
+      "dump function",
+      "load function",
+      "shoplist data",
+      "unicode",
+      "non-English languages",
+      "utf-8"
+    ],
+    "context": [
+      "reverse(text)",
+      "is_palindrome(text)",
+      "io_input.py",
+      "slicing feature",
+      "raw_input()",
+      "reversed text",
+      "open function",
+      "file modes",
+      "pickle module",
+      "writing and reading files",
+      "program handling"
+    ],
+    "id": 22
+  },
+  {
+    "name": "Exception Handling",
+    "description": "This topic covers how to handle exceptions in Python using the try..except statement. The usual statements are placed in the try block, and the error handlers are placed in the except block. It also briefly mentions the use of the pickle module for storing and retrieving Python objects.",
+    "keywords": [
+      "exceptions",
+      "try..except",
+      "error handling",
+      "raising errors",
+      "handling errors"
+    ],
+    "context": [
+      "raising errors",
+      "handling errors"
+    ],
+    "id": 23
+  },
+  {
+    "name": "Assert Statement",
+    "description": "The assert statement is used to verify that a condition is true, raising an AssertionError if it is not. It is typically used when you are certain about a condition and want to ensure it holds, otherwise raising an error.",
+    "keywords": [
+      "assert",
+      "AssertionError",
+      "condition verification"
+    ],
+    "context": [
+      "check",
+      "raise an error",
+      "list element count"
+    ],
+    "id": 24
+  },
+  {
+    "name": "Decorators",
+    "description": "Decorators allow you to wrap functionality with the same code repeatedly, making it easier to apply consistent behavior across multiple functions. They are particularly useful for adding retry mechanisms to functions that may fail due to transient issues like network errors.",
+    "keywords": [
+      "decorators",
+      "wrapper functions",
+      "retry mechanism"
+    ],
+    "context": [
+      "apply to any function",
+      "exception handling",
+      "network calls"
+    ],
+    "id": 25
+  },
+  {
+    "name": "GUI Toolkits for Python",
+    "description": "This section discusses various GUI toolkits for Python, including PyQt, wxPython, and others, detailing their licensing, portability, and usage.",
+    "keywords": [
+      "GUI toolkits",
+      "PyQt",
+      "wxPython",
+      "licensing",
+      "portability"
+    ],
+    "context": [
+      "free source software",
+      "proprietary software",
+      "IDEs",
+      "tutorial"
+    ],
+    "id": 26
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Hackathon Setup Guide",
+    "description": "This guide provides step-by-step instructions on setting up Featherless.ai for use in a hackathon, including signing up for the service, obtaining an API key, and choosing a model.",
+    "keywords": [
+      "Hackathon",
+      "Featherless.ai",
+      "API Key",
+      "Model Selection"
+    ],
+    "context": [
+      "sign up",
+      "API key",
+      "model catalog"
+    ],
+    "id": 0,
+    "displayed_info": "This guide provides step-by-step instructions on setting up Featherless.ai for use in a hackathon, including signing up for the service, obtaining an API key, and choosing a model.",
+    "flashcards": [
+      {
+        "q": "What is Featherless.ai?",
+        "a": "A service for use in hackathons."
+      },
+      {
+        "q": "What is the first step in setting up Featherless.ai?",
+        "a": "Sign up for the service."
+      },
+      {
+        "q": "What is an API key?",
+        "a": "A key used to authenticate API calls."
+      },
+      {
+        "q": "What is the next step after signing up?",
+        "a": "Obtain an API key."
+      },
+      {
+        "q": "What should you choose after obtaining an API key?",
+        "a": "A model."
+      },
+      {
+        "q": "What does this guide cover?",
+        "a": "Step-by-step instructions for setting up Featherless.ai in a hackathon."
+      }
+    ]
+  },
+  {
+    "name": "API Usage",
+    "description": "The guide explains how to make API calls using Python Requests and OpenAI SDK, providing examples for chat completions and model selection.",
+    "keywords": [
+      "API Call",
+      "Python Requests",
+      "OpenAI SDK",
+      "Chat Completion"
+    ],
+    "context": [
+      "API key",
+      "model ID",
+      "chat.completions.create"
+    ],
+    "id": 1,
+    "displayed_info": "The guide explains how to make API calls using Python Requests and OpenAI SDK, providing examples for chat completions and model selection.",
+    "flashcards": [
+      {
+        "q": "What is used to make API calls?",
+        "a": "Python Requests and OpenAI SDK."
+      },
+      {
+        "q": "What are examples of API calls mentioned?",
+        "a": "Chat completions and model selection."
+      },
+      {
+        "q": "What is the purpose of the guide?",
+        "a": "To explain how to make API calls using Python Requests and OpenAI SDK."
+      },
+      {
+        "q": "What are chat completions?",
+        "a": "A type of API call."
+      },
+      {
+        "q": "What is model selection?",
+        "a": "A process of choosing a model."
+      },
+      {
+        "q": "What tools are used for API calls?",
+        "a": "Python Requests and OpenAI SDK."
+      }
+    ]
+  },
+  {
+    "name": "Core API Endpoints",
+    "description": "The guide details the core API endpoints for Featherless.ai, including /v1/chat/completions and /v1/completions, and their use cases.",
+    "keywords": [
+      "Core API Endpoints",
+      "v1/chat/completions",
+      "v1/completions"
+    ],
+    "context": [
+      "chatbot",
+      "content generation",
+      "data extraction"
+    ],
+    "id": 2,
+    "displayed_info": "The guide details the core API endpoints for Featherless.ai, including /v1/chat/completions and /v1/completions, and their use cases.",
+    "flashcards": [
+      {
+        "q": "What are the core API endpoints for Featherless.ai?",
+        "a": "/v1/chat/completions and /v1/completions."
+      },
+      {
+        "q": "What is the use case for /v1/chat/completions?",
+        "a": "Chatbot."
+      },
+      {
+        "q": "What is the use case for /v1/completions?",
+        "a": "Content generation and data extraction."
+      },
+      {
+        "q": "What does the guide cover?",
+        "a": "Core API endpoints and their use cases."
+      },
+      {
+        "q": "What are the API endpoints?",
+        "a": "/v1/chat/completions and /v1/completions."
+      },
+      {
+        "q": "What are the use cases?",
+        "a": "Chatbot, content generation, and data extraction."
+      }
+    ]
+  },
+  {
+    "name": "Troubleshooting",
+    "description": "Common errors and their solutions are provided, including 401 Unauthenticated, 403 Unauthorized, and 500 Internal Server Error.",
+    "keywords": [
+      "Troubleshooting",
+      "Common Errors",
+      "401 Unauthenticated",
+      "403 Unauthorized"
+    ],
+    "context": [
+      "API key",
+      "model page",
+      "license terms"
+    ],
+    "id": 3,
+    "displayed_info": "Common errors and their solutions are provided, including 401 Unauthenticated, 403 Unauthorized, and 500 Internal Server Error.",
+    "flashcards": [
+      {
+        "q": "What errors are covered?",
+        "a": "401 Unauthenticated, 403 Unauthorized, and 500 Internal Server Error."
+      },
+      {
+        "q": "What is 401 Unauthenticated?",
+        "a": "An error indicating the request is not authenticated."
+      },
+      {
+        "q": "What is 403 Unauthorized?",
+        "a": "An error indicating the request is unauthorized."
+      },
+      {
+        "q": "What is 500 Internal Server Error?",
+        "a": "An error indicating the server encountered an unexpected condition."
+      },
+      {
+        "q": "What does the guide provide?",
+        "a": "Solutions for common errors."
+      },
+      {
+        "q": "What are the common errors?",
+        "a": "401 Unauthenticated, 403 Unauthorized, and 500 Internal Server Error."
+      }
+    ]
+  },
+  {
+    "name": "Concurrency Limits",
+    "description": "The guide explains Featherless.ai's concurrency limits based on subscription tier and model type, ensuring consistent performance.",
+    "keywords": [
+      "Concurrency Limits",
+      "Subscription Tier",
+      "Model Concurrency"
+    ],
+    "context": [
+      "capacity reservation",
+      "token-based billing",
+      "model inference calls"
+    ],
+    "id": 4,
+    "displayed_info": "The guide explains Featherless.ai's concurrency limits based on subscription tier and model type, ensuring consistent performance.",
+    "flashcards": [
+      {
+        "q": "What does Featherless.ai explain?",
+        "a": "Concurrency limits based on subscription tier and model type."
+      },
+      {
+        "q": "What are concurrency limits?",
+        "a": "Limits on the number of concurrent model inference calls."
+      },
+      {
+        "q": "What factors determine concurrency limits?",
+        "a": "Subscription tier and model type."
+      },
+      {
+        "q": "What is the purpose of explaining concurrency limits?",
+        "a": "To ensure consistent performance."
+      },
+      {
+        "q": "What are subscription tiers?",
+        "a": "Different levels of service based on features and capacity."
+      },
+      {
+        "q": "What are model types?",
+        "a": "Different types of models with varying performance characteristics."
+      }
+    ]
+  },
+  {
+    "name": "Application Guides",
+    "description": "Detailed guides are available to help integrate Featherless.ai into existing projects and workflows.",
+    "keywords": [
+      "Application Guides",
+      "Documentation",
+      "GitHub"
+    ],
+    "context": [
+      "integration",
+      "projects",
+      "workflows"
+    ],
+    "id": 5,
+    "displayed_info": "Detailed guides are available to help integrate Featherless.ai into existing projects and workflows. These guides are designed to assist with the integration process and are accessible through Application Guides on GitHub.",
+    "flashcards": [
+      {
+        "q": "Where are the detailed guides for integrating Featherless.ai located?",
+        "a": "They are located on GitHub under Application Guides."
+      },
+      {
+        "q": "What is the purpose of the Application Guides?",
+        "a": "To help integrate Featherless.ai into existing projects and workflows."
+      },
+      {
+        "q": "What are the guides meant to assist with?",
+        "a": "The integration process."
+      },
+      {
+        "q": "What are some of the contexts in which these guides are useful?",
+        "a": "Integration, projects, and workflows."
+      },
+      {
+        "q": "What are the keywords associated with these guides?",
+        "a": "Application Guides, Documentation, GitHub."
+      },
+      {
+        "q": "How can users access these guides?",
+        "a": "Through GitHub under Application Guides."
+      }
+    ]
+  }
+]

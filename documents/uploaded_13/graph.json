@@ -1,0 +1,361 @@
+{
+  "topics": [
+    {
+      "name": "Hackathon Setup Guide",
+      "description": "This guide provides a step-by-step process for setting up Featherless.ai, an AI inference platform, and integrating it into your projects.",
+      "keywords": [
+        "Featherless.ai",
+        "Hackathon",
+        "Setup Guide"
+      ],
+      "context": [
+        "serverless AI",
+        "API key",
+        "model catalog"
+      ],
+      "id": 0,
+      "displayed_info": "This guide provides a step-by-step process for setting up Featherless.ai, an AI inference platform, and integrating it into your projects. It covers signing up for Feather Premium, obtaining an API key, and choosing a model for your use case.",
+      "flashcards": [
+        {
+          "q": "What is Featherless.ai?",
+          "a": "It is an AI inference platform."
+        },
+        {
+          "q": "What are the steps covered in the setup guide?",
+          "a": "Sign up for Feather Premium, obtain an API key, and choose a model for your use case."
+        },
+        {
+          "q": "What is required to integrate Featherless.ai into your projects?",
+          "a": "An API key and a chosen model."
+        },
+        {
+          "q": "What does Feather Premium include?",
+          "a": "It includes the ability to sign up and obtain an API key."
+        },
+        {
+          "q": "What is the purpose of obtaining an API key?",
+          "a": "To authenticate and access the Featherless.ai platform."
+        },
+        {
+          "q": "What should you do after obtaining an API key?",
+          "a": "Choose a model for your use case."
+        }
+      ]
+    },
+    {
+      "name": "Getting Started with Featherless.ai",
+      "description": "The guide covers signing up for Feather Premium, obtaining an API key, and choosing a model for your use case.",
+      "keywords": [
+        "sign up",
+        "API key",
+        "model selection"
+      ],
+      "context": [
+        "subscription",
+        "model catalog",
+        "API key generation"
+      ],
+      "id": 1,
+      "displayed_info": "The guide covers signing up for Feather Premium, obtaining an API key, and choosing a model for your use case. It includes details on subscription, API key generation, and model selection.",
+      "flashcards": [
+        {
+          "q": "What is the first step in getting started with Featherless.ai?",
+          "a": "Sign up for Feather Premium."
+        },
+        {
+          "q": "What is required to access Featherless.ai?",
+          "a": "An API key."
+        },
+        {
+          "q": "What should you do after obtaining an API key?",
+          "a": "Choose a model for your use case."
+        },
+        {
+          "q": "What does Feather Premium provide?",
+          "a": "It provides the ability to sign up and obtain an API key."
+        },
+        {
+          "q": "What is the purpose of an API key?",
+          "a": "To authenticate and access the Featherless.ai platform."
+        },
+        {
+          "q": "What should you select after obtaining an API key?",
+          "a": "A model for your use case."
+        }
+      ]
+    },
+    {
+      "name": "API Calls and Endpoints",
+      "description": "This section explains how to make API calls using Python Requests and OpenAI SDK, and lists the core API endpoints.",
+      "keywords": [
+        "API calls",
+        "Python Requests",
+        "OpenAI SDK"
+      ],
+      "context": [
+        "/v1/chat/completions",
+        "/v1/completions",
+        "chatbots",
+        "content generation"
+      ],
+      "id": 2,
+      "displayed_info": "This section explains how to make API calls using Python Requests and OpenAI SDK, and lists the core API endpoints. The endpoints include /v1/chat/completions and /v1/completions, and are used for chatbots and content generation.",
+      "flashcards": [
+        {
+          "q": "What are the core API endpoints?",
+          "a": "/v1/chat/completions and /v1/completions."
+        },
+        {
+          "q": "What tools are used to make API calls?",
+          "a": "Python Requests and OpenAI SDK."
+        },
+        {
+          "q": "What are the endpoints used for?",
+          "a": "Chatbots and content generation."
+        },
+        {
+          "q": "What is /v1/chat/completions used for?",
+          "a": "Chatbots."
+        },
+        {
+          "q": "What is /v1/completions used for?",
+          "a": "Content generation."
+        },
+        {
+          "q": "What is Python Requests?",
+          "a": "A tool used to make API calls."
+        }
+      ]
+    },
+    {
+      "name": "Troubleshooting Common Errors",
+      "description": "The guide provides solutions for common errors such as 401 Unauthenticated and 500 Internal Server Error.",
+      "keywords": [
+        "troubleshooting",
+        "errors",
+        "401 Unauthenticated"
+      ],
+      "context": [
+        "403 Unauthorized",
+        "503 Service Unavailable"
+      ],
+      "id": 3,
+      "displayed_info": "The guide provides solutions for common errors such as 401 Unauthenticated and 500 Internal Server Error. It covers troubleshooting for these and other errors.",
+      "flashcards": [
+        {
+          "q": "What are some common errors mentioned in the guide?",
+          "a": "401 Unauthenticated and 500 Internal Server Error."
+        },
+        {
+          "q": "What does the 401 error indicate?",
+          "a": "Unauthenticated access."
+        },
+        {
+          "q": "What does the 500 error indicate?",
+          "a": "An internal server error."
+        },
+        {
+          "q": "What is the purpose of the guide?",
+          "a": "To provide solutions for common errors."
+        },
+        {
+          "q": "What are the solutions provided for errors?",
+          "a": "Specific solutions for 401 and 500 errors."
+        },
+        {
+          "q": "What are other errors besides 401 and 500?",
+          "a": "The guide covers other common errors as well."
+        }
+      ]
+    },
+    {
+      "name": "Concurrency Limits",
+      "description": "This section explains the concurrency limits and costs associated with different model sizes and subscription tiers.",
+      "keywords": [
+        "concurrency limits",
+        "model sizes",
+        "subscription tiers"
+      ],
+      "context": [
+        "capacity reservation",
+        "token-based billing",
+        "model inference calls"
+      ],
+      "id": 4,
+      "displayed_info": "This section explains the concurrency limits and costs associated with different model sizes and subscription tiers. It includes information on capacity reservation and token-based billing.",
+      "flashcards": [
+        {
+          "q": "What does this section cover?",
+          "a": "Concurrency limits and costs associated with different model sizes and subscription tiers."
+        },
+        {
+          "q": "What is capacity reservation?",
+          "a": "A feature related to concurrency limits."
+        },
+        {
+          "q": "What is token-based billing?",
+          "a": "A billing method related to model inference calls."
+        },
+        {
+          "q": "What are concurrency limits?",
+          "a": "Limits on the number of concurrent model inference calls."
+        },
+        {
+          "q": "What factors affect concurrency limits?",
+          "a": "Model sizes and subscription tiers."
+        },
+        {
+          "q": "What is the purpose of token-based billing?",
+          "a": "To charge based on the number of model inference calls."
+        }
+      ]
+    },
+    {
+      "name": "Application Guides",
+      "description": "Featherless.ai offers detailed application guides to help integrate the platform into existing projects and workflows.",
+      "keywords": [
+        "application guides",
+        "integration",
+        "workflows"
+      ],
+      "context": [
+        "GitHub cookbook",
+        "documentation page"
+      ],
+      "id": 5,
+      "displayed_info": "Featherless.ai offers detailed application guides to help integrate the platform into existing projects and workflows. These guides are available on the GitHub cookbook and the documentation page.",
+      "flashcards": [
+        {
+          "q": "Where can you find detailed application guides for Featherless.ai?",
+          "a": "On the GitHub cookbook and the documentation page."
+        },
+        {
+          "q": "What is the purpose of application guides provided by Featherless.ai?",
+          "a": "To help integrate the platform into existing projects and workflows."
+        },
+        {
+          "q": "What are application guides used for?",
+          "a": "To assist in integrating Featherless.ai into existing projects and workflows."
+        },
+        {
+          "q": "Which platforms provide access to Featherless.ai application guides?",
+          "a": "GitHub cookbook and documentation page."
+        },
+        {
+          "q": "How can application guides help with Featherless.ai integration?",
+          "a": "They provide detailed instructions and examples to facilitate the integration process."
+        },
+        {
+          "q": "What are some key features of Featherless.ai application guides?",
+          "a": "Detailed integration instructions and examples for existing projects and workflows."
+        }
+      ]
+    },
+    {
+      "name": "Video Walkthrough",
+      "description": "A video walkthrough is available to demonstrate the use of Featherless.ai and a live use case.",
+      "keywords": [
+        "video walkthrough",
+        "live demo"
+      ],
+      "context": [
+        "Google Docs",
+        "Featherless AI - Quick Start and Live Demo.mov"
+      ],
+      "id": 6,
+      "displayed_info": "A video walkthrough is available to demonstrate the use of Featherless.ai and a live use case. This video is available on Google Docs and titled 'Featherless AI - Quick Start and Live Demo.mov'.",
+      "flashcards": [
+        {
+          "q": "What is available to demonstrate the use of Featherless.ai?",
+          "a": "A video walkthrough."
+        },
+        {
+          "q": "What does the video walkthrough demonstrate?",
+          "a": "The use of Featherless.ai and a live use case."
+        },
+        {
+          "q": "Where can you find the video walkthrough?",
+          "a": "On Google Docs."
+        },
+        {
+          "q": "What is the title of the video walkthrough?",
+          "a": "'Featherless AI - Quick Start and Live Demo.mov'."
+        },
+        {
+          "q": "What does the video walkthrough include?",
+          "a": "Demonstrations of Featherless.ai and a live use case."
+        },
+        {
+          "q": "How can the video walkthrough help?",
+          "a": "It provides a visual guide to using Featherless.ai and understanding a live use case."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ]
+  ]
+}

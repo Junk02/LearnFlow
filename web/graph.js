@@ -18,6 +18,7 @@ let network = null;
 const COLOR_DEFAULT = '#6366f1';
 const COLOR_FROZEN = '#f59e0b';
 
+<<<<<<< Updated upstream
 let currentFlashcards = [];
 let currentCardIndex = 0;
 let correctAnswersCount = 0;
@@ -56,9 +57,24 @@ function SkipLoading() {
 
 async function InitGraphFromBackend() {
     const response = await fetch("http://localhost:8000/graph");
+=======
+async function InitGraphFromBackend() {
+    loadingSection.style.display = 'flex';
+    graphSection.style.display = 'none';
+
+    const params = new URLSearchParams(window.location.search);
+    const docName = params.get("doc");
+
+    if (!docName) {
+        alert("Error: doc parameter missing");
+        return;
+    }
+
+    const response = await fetch(`http://localhost:8000/graph/${docName}`);
+>>>>>>> Stashed changes
     const graphData = await response.json();
 
-    NodesArray = graphData.nodes.map(n => ({
+    NodesArray = graphData.topics.map(n => ({
         id: n.id,
         label: n.name,
         title: n.name,
@@ -140,6 +156,11 @@ async function InitGraphFromBackend() {
     };
 
     network = new vis.Network(networkContainer, data, options);
+
+    loadingSection.style.display = 'none';
+    graphSection.style.display = 'flex';
+    graphSection.style.height = '100vh';
+    graphSection.style.padding = '0';
 
     network.on("click", function (params) {
         if (params.nodes.length > 0) {
@@ -481,9 +502,17 @@ function CloseNodeCard() {
     
     nodeCard.style.display = 'none';
     currentOpenNodeId = null;
+<<<<<<< Updated upstream
 
     CloseFlashcardsModal();
     currentFlashcards = [];
     document.getElementById('flashcardContainer').innerHTML = '';
     document.getElementById('fcProgress').innerText = '';
 }
+=======
+}
+
+window.onload = () => {
+    InitGraphFromBackend();
+};
+>>>>>>> Stashed changes

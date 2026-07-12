@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Exception Handling",
+        "description": "This section covers various aspects of exception handling in Python, including try...except blocks, finally blocks, and the with statement. These constructs ensure that your code can gracefully handle errors and manage resources effectively.",
+        "keywords": ["try", "except", "exception", "else", "finally", "with statement", "resource management", "file management"],
+        "context": ["handling errors", "clean-up", "simplified resource management", "automatic cleanup", "ShortInputException", "file closing"]
+    },
+    {
+        "name": "Python Standard Library",
+        "description": "The Python Standard Library includes numerous useful modules that are part of every standard Python installation. Modules like sys and logging provide system-specific functionality and help with debugging and storing messages for later review. The Module of the Week series and official documentation offer comprehensive guides and resources for further exploration.",
+        "keywords": ["Python", "Standard Library", "modules", "system-specific functionality", "debugging", "sys module", "logging module"],
+        "keywords": ["sys module"],
+        context: "sys module"
+    },
+    {
+        "name": "Advanced Topics",
+        "description": "This topic covers advanced features of Python, including special methods that allow classes to mimic the behavior of built-in types, and the usage of tuples to return multiple values from functions. It also discusses the importance of proper indentation and the benefits of using single statement blocks for clarity.",
+        "keywords": ["special methods", "classes", "built-in types", "tuples", "return values", "functions", "single statement blocks", "control structures", "indentation"],
+        "context": ["init method", "del method", "str method", "getitem method", "usage of tuples", "swapping variables", "caveat of using only one statement"]
+    }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 20,
+    "displayed_info": "This topic introduces fundamental concepts of Object-Oriented Programming (OOP), including classes, objects, and methods. It explains how to create a simple class and instantiate objects.",
+    "flashcards": [
+      { "q": "What is a class in OOP?", "a": "A class is a blueprint for creating objects, which defines the attributes and methods that the objects will have." },
+      { "q": "How do you create a class in Python?", "a": "You define a class using the 'class' keyword followed by the class name and a colon. For example, `class Person:`." },
+      { "q": "What is an object in OOP?", "a": "An object is an instance of a class. It contains data and methods that can operate on that data." },
+      { "q": "What is a method in OOP?", "a": "A method is a function defined within a class that operates on the data of the class or performs some task related to the class." },
+      { "q": "How do you instantiate an object from a class?", "a": "You call the class like a function, passing any required arguments to its constructor. For example, `person = Person('Alice')`." },
+      { "q": "What is the purpose of the `__init__` method in a class?", "a –::::: –::::— –: "a": "The `__init__` method is a special method that gets called when an object is created from a class. It initializes the attributes of the object." }
+    ]
+  },
+  {
+    "id": 21,
+    "displayed_info": "This topic covers the concepts of inheritance and polymorphism in object-oriented programming. Inheritance allows a class (subclass) to inherit attributes and methods from another class (superclass), promoting code reuse and subtype relationships. Polymorphism enables a subclass to override a method of the superclass, allowing objects to be treated as instances of their parent class while providing specific implementations.",
+    "flashcards": [
+      { "q": "What is inheritance in OOP?", "a": "Inheritance is a mechanism where a new class (subclass) is derived from an existing class (superclass). The subclass inherits all the attributes and methods of the superclass." },
+      { "q": "What is a subclass in OOP?", "a": "A subclass is a class that inherits from another class (the superclass). It can add new methods or override existing ones." },
+      { "q": "What is a superclass in OOP?", "a": "A superclass is a class from which other classes (subclasses) can inherit. It provides common attributes and methods that can be shared among its subclasses." },
+      { "q": "What is polymorphism in OOP?", "a": "Polymorphism is the ability of objects of different classes to be treated as instances of a common superclass. Subclasses can override methods of the superclass to provide specific implementations." },
+      { "q": "How does method overriding work in inheritance?", "a": "Method overriding occurs when a subclass provides a specific implementation of a method that is already defined in its superclass. The subclass method overrides the superclass method with the same name and signature." },
+      { "q": "What is the `SchoolMember`, `Teacher`, and `Student` example illustrating?", "a": "It illustrates the concept of inheritance where `Teacher` and `Student` are subclasses of `SchoolMember`, inheriting common attributes and methods from `SchoolMember`." }
+    ]
+  },
+  {
+    "id": 22,
+    "displayed_info": "This section explains how to perform input and output operations in Python, including reversing strings to check for palindromes, reading/writing files, and using the pickle module for storing and retrieving Python objects. It also covers file handling, including opening files in different modes and using the readline and close methods.",
+    "flashcards": [
+      { "q": "What is the `reverse` function used for in Python?", "a": "The `reverse` function reverses a string." },
+      { "q": "How do you check if a string is a palindrome?", "a": "You can check if a string is a palindrome by comparing the reversed string to the original string." },
+      { "q": "What is the `open` function used for in Python?", "a": "The `open` function is used to open a file for reading or writing." },
+      { "q": "What are the different modes in which a file can be opened in Python?", "a": "File modes include 'r' for reading, 'w' for writing, 'a' for appending, and 'rb', 'wb', 'ab' for binary reading, writing, and appending respectively." },
+      { "q": "What is the `readline` method used for in Python?", "a": "The `readline` method reads a single line from a file." },
+      { "q": "What is the `pickle` module used for in Python?", "a": "The `pickle` module is used for serializing and deserializing Python objects, allowing them to be stored and retrieved from files." }
+    ]
+  },
+  {
+    " id": 23,
+    "displayed_info": "This topic covers how to handle exceptions in Python using the try..except statement. The usual statements are placed in the try block, and the error handlers are placed in the except block. It also briefly mentions the use of the pickle module for storing and retrieving Python objects.",
+    "flashcards": [
+      { "q": "What is the `try..except` statement used for in Python?", "a": "The `try..except` statement is used to catch and handle exceptions that may occur during the execution of a program." },
+      { "q": "What happens inside the `try` block?", "a": "The `try` block contains the code that might raise an exception. If an exception occurs, the code in the `try` block is interrupted." },
+      { "q": "What happens inside the `except` block?", "a": "The `except` block contains the code that handles the exception. It runs only if an exception is raised in the `try` block." },
+      { "q": "What is the `raise` statement used for in Python?", "a": "The `raise` statement is used to explicitly raise an exception. You can specify the type of the exception and optionally a custom error message." },
+      { "q": "What is the `pickle` module used for in this context?", "a": "The `pickle` module is used for serializing and deserializing Python objects, allowing them to be stored and retrieved from files." },
+      { "q": "How do you use the `pickle.dump` function?", "a": "The `pickle.dump` function is used to store a Python object into a file. You pass the object and the file object to `pickle.dump`." }
+    ]
+  },
+  {
+    "id": 24,
+    "displayed_info": "The assert statement is used to verify that a condition is true, raising an AssertionError if it is not. It is typically used when you are certain about a condition and want to ensure it holds, otherwise raising an error.",
+    "flashcards": [
+      { "q": "What is the `assert` statement used for in Python?", "a": "The `assert` statement is used to verify that a condition is true. If the condition is false, an AssertionError is raised." },
+      { "q": "What happens when the condition in an `assert` statement is false?", "a": "If the condition is false, an AssertionError is raised, and the program stops execution." },
+      { "q": "What is the syntax of the `assert` statement?", "a": "The syntax of the `assert` statement is `assert condition[, message]`. If the condition is false, the optional message is included in the AssertionError." },
+      { "q": "What is the `AssertionError` exception in Python?", "a": "The `AssertionError` is an exception that is raised when the `assert` statement fails, indicating that a condition is not met." },
+      { "q": "When would you use the `assert` statement?", "a": "You would use the `assert` statement when you are certain about a condition and want to ensure it holds, otherwise raising an error." },
+      { "q": "How do you check the length of a list using `assert`?", "a": "You can use `assert len(my_list) == expected_length` to check if the length of `my_list` matches `expected_length`." }
+    ]
+  }
+]

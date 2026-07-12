@@ -1,0 +1,56 @@
+{
+  "topics": [
+    {
+      "name": "Hackathon Setup Guide",
+      "description": "This guide provides a step-by-step process for setting up Featherless.ai, an AI inference platform, including signing up for a premium account, obtaining an API key, and choosing a model for your use case. It covers the serverless AI platform, offering unlimited access to open-source AI models with concurrency limits.",
+      "keywords": [
+        "Hackathon Setup",
+        "Featherless.ai",
+        "API Key",
+        "Model Selection"
+      ],
+      "context": [
+        "serverless AI platform",
+        "unlimited access to open-source AI models",
+        "concurrency limits"
+      ],
+      "id": 0,
+      "displayed_info": "This guide provides a step-by-step process for setting up Featherless.ai, an AI inference platform, including signing up for a premium account, obtaining an API key, and choosing a model for your use case. It covers the serverless AI platform, offering unlimited access to open-source AI models with concurrency limits.",
+      "flashcards": [
+        {
+          "q": "What is Featherless.ai?",
+          "a": "Featherless.ai is an AI inference platform."
+        },
+        {
+          "q": "What is required to set up Featherless.ai?",
+          "a": "You need to sign up for a premium account, obtain an API key, and choose a model for your use case."
+        },
+        {
+          "q": "What type of platform is Featherless.ai?",
+          "a": "It is a serverless AI platform."
+        },
+        {
+          "q": "What does Featherless.ai offer?",
+          "a": "Unlimited access to open-source AI models."
+        },
+        {
+          "q": "Are there any limitations with Featherless.ai?",
+          "a": "Yes, there are concurrency limits."
+        },
+        {
+          "q": "What is an API key used for?",
+          "a": "It is used to authenticate access to the Featherless.ai platform."
+        },
+        {
+          "q": "What should you do after signing up for Featherless.ai?",
+          "a": "Obtain an API key and choose a model for your use case."
+        },
+        {
+          "q": "What does the term 'serverless' imply about Featherless.ai?",
+          "a": "It implies that Featherless.ai manages the infrastructure, allowing users to focus on their AI models."
+        }
+      ]
+    }
+  ],
+  "edges": []
+}

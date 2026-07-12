@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Hackathon Setup Guide",
+    "description": "This guide provides a step-by-step process for setting up Featherless.ai, an AI inference platform, including signing up, obtaining an API key, and choosing a model.",
+    "keywords": [
+      "Featherless.ai",
+      "Hackathon Setup",
+      "API Key",
+      "Model Selection"
+    ],
+    "context": [
+      "serverless AI platform",
+      "unlimited access to open-source models",
+      "concurrency limits"
+    ]
+  },
+  {
+    "name": "API Usage",
+    "description": "The guide explains how to make API calls using Python requests and the OpenAI SDK, detailing the core API endpoints and their use cases.",
+    "keywords": [
+      "API Calls",
+      "Python Requests",
+      "OpenAI SDK",
+      "Core API Endpoints"
+    ],
+    "context": [
+      "chat completions",
+      "content generation",
+      "data extraction"
+    ]
+  },
+  {
+    "name": "Troubleshooting",
+    "description": "Common errors and their solutions are provided, including 401 and 403 errors, internal server errors, and concurrency limits.",
+    "keywords": [
+      "Troubleshooting",
+      "Common Errors",
+      "401 - Unauthenticated",
+      "403 - Unauthorized"
+    ],
+    "context": [
+      "API key verification",
+      "model gating",
+      "server errors"
+    ]
+  },
+  {
+    "name": "Concurrency Limits",
+    "description": "The guide explains Featherless.ai's unique model of capacity reservation and the costs associated with different model concurrency levels.",
+    "keywords": [
+      "Concurrency Limits",
+      "Model Concurrency Costs",
+      "Capacity Reservation"
+    ],
+    "context": [
+      "subscription tiers",
+      "concurrent AI model inference calls",
+      "performance consistency"
+    ]
+  },
+  {
+    "name": "Application Guides",
+    "description": "Detailed guides are available to help integrate Featherless.ai into existing projects and workflows, with examples and documentation.",
+    "keywords": [
+      "Application Guides",
+      "Integration",
+      "Workflows"
+    ],
+    "context": [
+      "hackathon setup",
+      "live demo",
+      "video walkthrough"
+    ]
+  }
+]

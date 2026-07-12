@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Hackathon Setup Guide",
+    "description": "This guide provides a step-by-step process for setting up Featherless.ai, an AI inference platform, and integrating it into your projects.",
+    "keywords": [
+      "Featherless.ai",
+      "Hackathon",
+      "Setup Guide"
+    ],
+    "context": [
+      "serverless AI",
+      "API key",
+      "model catalog"
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Hackathon Setup Guide",
+    "description": "This guide provides a step-by-step process for setting up Featherless.ai, including signing up for the service, obtaining an API key, and choosing a model for your use case. It also covers how to make API calls using Python Requests and OpenAI SDK, troubleshooting common errors, and details on concurrency limits and costs.",
+    "keywords": [
+      "Hackathon",
+      "Featherless.ai",
+      "API Key",
+      "Model Selection",
+      "API Call",
+      "Python Requests",
+      "OpenAI SDK",
+      "Chat Completion",
+      "Troubleshooting",
+      "401 - Unauthenticated",
+      "403 - Unauthorized",
+      "Concurrency Limits",
+      "Model Concurrency Costs",
+      "Subscription Tier"
+    ],
+    "context": [
+      "serverless AI inference platform",
+      "unlimited access to thousands of open-source AI models",
+      "conversational applications",
+      "content generation",
+      "interactive user-assistant interactions",
+      "API key verification",
+      "model gating",
+      "service availability",
+      "model inference calls",
+      "performance consistency",
+      "token-based billing",
+      "seamless integration",
+      "documentation page",
+      "GitHub cookbook"
+    ],
+    "id": 0
+  },
+  {
+    "name": "Integration Guides",
+    "description": "Detailed guides are available to help integrate Featherless.ai into existing projects and workflows.",
+    "keywords": [
+      "Application Guides",
+      "Integration",
+      "Projects"
+    ],
+    "context": [
+      "seamless integration",
+      "documentation page",
+      "GitHub cookbook"
+    ],
+    "id": 1
+  }
+]

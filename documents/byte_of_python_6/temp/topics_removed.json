@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Translation of Programming Concepts",
+    "description": "The book covers translations of programming concepts into various languages, including Chinese, French, German, Greek, and others, to make the content accessible to a global audience.",
+    "keywords": [
+      "translation",
+      "programming concepts",
+      "global audience"
+    ],
+    "context": [
+      "various languages",
+      "translations"
+    ]
+  },
+  {
+    "name": "Introduction and Welcome",
+    "description": "The book introduces itself as a free tutorial for beginners learning Python, highlighting its accessibility and the positive feedback it has received from readers.",
+    "keywords": [
+      "free tutorial",
+      "beginners",
+      "positive feedback"
+    ],
+    "context": [
+      "tutorial for beginners",
+      "free book"
+    ]
+  },
+  {
+    "name": "Feedback on 'A Byte of Python'",
+    "description": "Readers from around the world have praised 'A Byte of Python' for its clarity and helpfulness, especially for beginners learning Python. The book is noted for its simplicity and effectiveness in teaching programming concepts.",
+    "keywords": [
+      "feedback",
+      "A Byte of Python",
+      "beginners",
+      "clarity",
+      "programming"
+    ],
+    "context": [
+      "excellent",
+      "easy to follow",
+      "best introduction",
+      "understanding",
+      "structured and helpful"
+    ]
+  },
+  {
+    "name": "Feedback and Impact of 'A Byte of Python'",
+    "description": "The book 'A Byte of Python' has received positive feedback from various users, including Nick, Ankush, Luca, and Isen, who found it useful for learning Python. It is also used as instructional material in several academic courses and is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.",
+    "keywords": [
+      "feedback",
+      "Python",
+      "learning",
+      "instructional material",
+      "academic courses",
+      "Creative Commons"
+    ],
+    "context": [
+      "positive user feedback",
+      "use in academic courses",
+      "free and open-source"
+    ]
+  },
+  {
+    "name": "Official Website",
+    "description": "The official website of the book is where you can read the whole book online, download the latest versions, buy a printed hard copy, and send feedback.",
+    "keywords": [
+      "official website",
+      "read online",
+      "download",
+      "buy hard copy",
+      "send feedback"
+    ],
+    "context": [
+      "The official website of the book is http://swaroopch.com/notes/python"
+    ]
+  },
+  {
+    "name": "Book Updates and Revisions",
+    "description": "The book has undergone several updates and revisions, including changes to support Python 3.0 and conversions to different formats like AsciiDoctor, Markdown, and Pandoc. The author emphasizes the importance of reader feedback for continuous improvement.",
+    "keywords": [
+      "book updates",
+      "revisions",
+      "AsciiDoctor",
+      "Markdown",
+      "Pandoc"
+    ],
+    "context": [
+      "last updated on 2015-05-24",
+      "Python 3.0 release",
+      "reader feedback"
+    ]
+  },
+  {
+    "name": "Translation Efforts",
+    "description": "The book has been translated into multiple languages by dedicated volunteers, including Arabic, Brazilian Portuguese, Catalan, and Chinese.",
+    "keywords": [
+      "translations",
+      "volunteers",
+      "Arabic",
+      "Portuguese",
+      "Catalan",
+      "Chinese"
+    ],
+    "context": [
+      "tireless volunteers",
+      "new translation projects",
+      "programming language for daily simulation"
+    ]
+  },
+  {
+    "name": "Translation Efforts",
+    "description": "The book 'A Byte of Python' has been translated into multiple languages including French, German, Greek, and Indonesian, each aiming to make Python accessible to a broader audience.",
+    "keywords": [
+      "translation",
+      "Python",
+      "programming",
+      "education"
+    ],
+    "context": [
+      "network firmware engineer",
+      "TurboGears web framework",
+      "educational resources"
+    ]
+  },
+  {
+    "name": "Translation Efforts",
+    "description": "The book 'A Byte of Python' has been translated into multiple languages including Italian, Japanese, Korean, Mongolian, Norwegian, Polish, Portuguese, Romanian, and Russian, demonstrating its wide appeal and utility.",
+    "keywords": [
+      "translation",
+      "multilingual",
+      "programming guide"
+    ],
+    "context": [
+      "volunteers",
+      "students",
+      "researchers"
+    ]
+  },
+  {
+    "name": "Translations",
+    "description": "The book 'A Byte of Python' has been translated into multiple languages including Russian, Serbian, Slovak, Spanish, Swedish, and Turkish. Volunteers from various countries have contributed to these translations.",
+    "keywords": [
+      "translations",
+      "volunteers",
+      "languages"
+    ],
+    "context": [
+      "Ukranian",
+      "Serbian",
+      "Slovak",
+      "Spanish",
+      "Swedish",
+      "Turkish"
+    ]
+  }
+]

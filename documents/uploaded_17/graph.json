@@ -1,0 +1,128 @@
+{
+  "topics": [
+    {
+      "name": "Hackathon Setup Guide",
+      "description": "This guide provides a step-by-step process for setting up Featherless.ai, including signing up for the service, obtaining an API key, and choosing a model for your use case. It also covers how to make API calls using Python Requests and OpenAI SDK, troubleshooting common errors, and details on concurrency limits and costs.",
+      "keywords": [
+        "Hackathon",
+        "Featherless.ai",
+        "API Key",
+        "Model Selection",
+        "API Call",
+        "Python Requests",
+        "OpenAI SDK",
+        "Chat Completion",
+        "Troubleshooting",
+        "401 - Unauthenticated",
+        "403 - Unauthorized",
+        "Concurrency Limits",
+        "Model Concurrency Costs",
+        "Subscription Tier"
+      ],
+      "context": [
+        "serverless AI inference platform",
+        "unlimited access to thousands of open-source AI models",
+        "conversational applications",
+        "content generation",
+        "interactive user-assistant interactions",
+        "API key verification",
+        "model gating",
+        "service availability",
+        "model inference calls",
+        "performance consistency",
+        "token-based billing",
+        "seamless integration",
+        "documentation page",
+        "GitHub cookbook"
+      ],
+      "id": 0,
+      "displayed_info": "This guide provides a step-by-step process for setting up Featherless.ai, including signing up for the service, obtaining an API key, and choosing a model for your use case. It also covers how to make API calls using Python Requests and OpenAI SDK, troubleshooting common errors, and details on concurrency limits and costs.",
+      "flashcards": [
+        {
+          "q": "What is Featherless.ai?",
+          "a": "Featherless.ai is a serverless AI inference platform that provides unlimited access to thousands of open-source AI models."
+        },
+        {
+          "q": "What is the first step in setting up Featherless.ai?",
+          "a": "The first step is to sign up for the service."
+        },
+        {
+          "q": "What is an API key used for?",
+          "a": "An API key is used for API key verification and model gating."
+        },
+        {
+          "q": "How can API calls be made using Python?",
+          "a": "API calls can be made using Python Requests or OpenAI SDK."
+        },
+        {
+          "q": "What are concurrency limits?",
+          "a": "Concurrency limits refer to the maximum number of model inference calls that can be made simultaneously."
+        },
+        {
+          "q": "What are model concurrency costs?",
+          "a": "Model concurrency costs refer to the costs associated with making multiple model inference calls simultaneously."
+        },
+        {
+          "q": "What is token-based billing?",
+          "a": "Token-based billing is a method of charging for model inference calls based on the number of tokens used."
+        },
+        {
+          "q": "What are some common errors that can be encountered?",
+          "a": "Common errors include 401 - Unauthenticated and 403 - Unauthorized."
+        },
+        {
+          "q": "What does the service availability section cover?",
+          "a": "The service availability section covers details on model inference calls and performance consistency."
+        }
+      ]
+    },
+    {
+      "name": "Integration Guides",
+      "description": "Detailed guides are available to help integrate Featherless.ai into existing projects and workflows.",
+      "keywords": [
+        "Application Guides",
+        "Integration",
+        "Projects"
+      ],
+      "context": [
+        "seamless integration",
+        "documentation page",
+        "GitHub cookbook"
+      ],
+      "id": 1,
+      "displayed_info": "Detailed guides are available to help integrate Featherless.ai into existing projects and workflows.",
+      "flashcards": [
+        {
+          "q": "What are integration guides?",
+          "a": "Integration guides are detailed guides available to help integrate Featherless.ai into existing projects and workflows."
+        },
+        {
+          "q": "What is the purpose of integration guides?",
+          "a": "The purpose of integration guides is to help integrate Featherless.ai into existing projects and workflows."
+        },
+        {
+          "q": "What types of projects can benefit from integration guides?",
+          "a": "Projects that can benefit from integration guides include conversational applications, content generation, and interactive user-assistant interactions."
+        },
+        {
+          "q": "Where can integration guides be found?",
+          "a": "Integration guides can be found on the documentation page and GitHub cookbook."
+        },
+        {
+          "q": "What does seamless integration mean?",
+          "a": "Seamless integration means that Featherless.ai can be easily integrated into existing projects and workflows without significant changes."
+        },
+        {
+          "q": "What are some examples of existing projects that can integrate Featherless.ai?",
+          "a": "Examples of existing projects that can integrate Featherless.ai include conversational applications, content generation, and interactive user-assistant interactions."
+        }
+      ]
+    }
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ]
+  ]
+}

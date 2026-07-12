@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Hackathon Setup Guide",
+    "description": "This guide provides a step-by-step process for setting up Featherless.ai, an AI inference platform, and integrating it into your projects.",
+    "keywords": [
+      "Featherless.ai",
+      "Hackathon",
+      "Setup",
+      "API Key",
+      "Model Catalog"
+    ],
+    "context": [
+      "serverless AI",
+      "unlimited access",
+      "open-source AI models"
+    ],
+    "id": 0,
+    "displayed_info": "This guide provides a step-by-step process for setting up Featherless.ai, an AI inference platform, and integrating it into your projects. It involves obtaining an API key and accessing the model catalog. Featherless.ai offers unlimited access to open-source AI models within a serverless environment.",
+    "flashcards": [
+      {
+        "q": "What is Featherless.ai?",
+        "a": "An AI inference platform."
+      },
+      {
+        "q": "What is required to set up Featherless.ai?",
+        "a": "An API key."
+      },
+      {
+        "q": "What can you access through Featherless.ai?",
+        "a": "The model catalog."
+      },
+      {
+        "q": "What type of access does Featherless.ai provide?",
+        "a": "Unlimited access."
+      },
+      {
+        "q": "What kind of models does Featherless.ai offer?",
+        "a": "Open-source AI models."
+      },
+      {
+        "q": "How is Featherless.ai designed?",
+        "a": "In a serverless environment."
+      },
+      {
+        "q": "What does the setup process involve?",
+        "a": "Setting up Featherless.ai and integrating it into your projects."
+      },
+      {
+        "q": "What is the purpose of Featherless.ai?",
+        "a": "To provide an AI inference platform with open-source models."
+      }
+    ]
+  }
+]

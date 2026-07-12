@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Hackathon Setup Guide",
+    "description": "This guide provides a step-by-step process for setting up Featherless.ai, including signing up for the service, obtaining an API key, and choosing a model for your use case.",
+    "keywords": [
+      "Hackathon",
+      "Featherless.ai",
+      "API Key",
+      "Model Selection"
+    ],
+    "context": [
+      "serverless AI inference platform",
+      "unlimited access to thousands of open-source AI models",
+      "conversational applications",
+      "content generation"
+    ]
+  },
+  {
+    "name": "API Usage",
+    "description": "The guide explains how to make API calls using Python Requests and OpenAI SDK, including examples for chat completions and model selection.",
+    "keywords": [
+      "API Call",
+      "Python Requests",
+      "OpenAI SDK",
+      "Chat Completion"
+    ],
+    "context": [
+      "interactive user-assistant interactions",
+      "conversational applications",
+      "content generation"
+    ]
+  },
+  {
+    "name": "Troubleshooting",
+    "description": "Common errors and their solutions are provided, including 401 and 403 errors, and issues with model concurrency.",
+    "keywords": [
+      "Troubleshooting",
+      "401 - Unauthenticated",
+      "403 - Unauthorized",
+      "Concurrency Limits"
+    ],
+    "context": [
+      "API key verification",
+      "model gating",
+      "service availability"
+    ]
+  },
+  {
+    "name": "Concurrency Limits",
+    "description": "Details on how Featherless.ai manages concurrency and the costs associated with different model sizes and tiers.",
+    "keywords": [
+      "Concurrency Limits",
+      "Model Concurrency Costs",
+      "Subscription Tier"
+    ],
+    "context": [
+      "model inference calls",
+      "performance consistency",
+      "token-based billing"
+    ]
+  },
+  {
+    "name": "Application Guides",
+    "description": "Detailed guides are available to help integrate Featherless.ai into existing projects and workflows.",
+    "keywords": [
+      "Application Guides",
+      "Integration",
+      "Projects"
+    ],
+    "context": [
+      "seamless integration",
+      "documentation page",
+      "GitHub cookbook"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 10,
+    "displayed_info": "Control flow statements in Python include if, for, and while statements. These are used to change the flow of execution based on conditions. This topic also covers the usage of if, while, and for statements along with their associated break and continue statements in Python.",
+    "flashcards": [
+      { "q": "What are control flow statements in Python?", "a": "Control flow statements include if, for, and while statements." },
+      { "q": "How do you use the if statement?", "a": "The if statement is used to execute a block of code when a specified condition is true." },
+      { "q": "What is the purpose of the break statement?", "a": "The break statement is used to exit a loop prematurely." },
+      { "q": "What does the continue statement do?", "a": "The continue statement is used to skip the rest of the current iteration and move on to the next one." },
+      { "q": "What is the difference between a for loop and a while loop?", "a": "A for loop is used for iterating over a sequence (such as a list, tuple, dictionary, set, or string). A while loop is used to repeat a block of code as long as a specified condition is true." },
+      { "q": "What is the role of break and continue in loops?", "a": "Break is used to exit the loop, while continue skips the rest of the current iteration and moves to the next one." }
+    ]
+  },
+  {
+    "id": 11,
+    "displayed_info": "This topic covers the definition and usage of functions in Python, including how to define functions, pass parameters, and handle local variables. It also includes details about the global statement in functions, default argument values, and keyword arguments.",
+    "flashcards": [
+      { "q": "What is a function in Python?", "a": "A function is a block of code that performs a specific task and can be called by name." },
+      { "q": "How do you define a function in Python?", "a": "You define a function using the def keyword followed by the function name and parentheses." },
+      { "q": "What are parameters in a function?", "a": "Parameters are placeholders for values that are passed to a function when it is called." },
+      { "q": "What is the purpose of the global statement?", "a": "The global statement is used to declare that a variable inside a function is global, meaning it can be accessed outside the function." },
+      { "q": "What are default argument values in functions?", "a": "Default argument values are specified in the function definition, allowing the function to be called without providing all arguments." },
+      { "q": "What are keyword arguments in functions?", "a": "Keyword arguments are specified with the argument name followed by the equals sign and the value, which allows the order of arguments to be ignored." }
+    ]
+  },
+  {
+    "id": 12,
+    "displayed_info::::::::::::::displayed_info": "VarArgs parameters allow a function to accept a variable number of arguments, enhancing its flexibility and adaptability to different call scenarios.",
+    "flashcards": [
+      { "q": "What are varargs parameters?", "a": "Varargs parameters allow a function to accept a variable number of arguments." },
+      { "q": "How are varargs parameters represented in function definitions?", "a": "Varargs parameters are represented using the *numbers syntax." },
+      { "q": "What is the purpose of varargs parameters?", "a": "They enhance the flexibility of a function by allowing it to accept a varying number of arguments." },
+      { "q": "Can varargs parameters be combined with other parameters?", "a": "Yes, varargs parameters can be combined with other parameters in a function definition." },
+      { "q": "What is the difference between *args and **kwargs?", "a": "*args is used for positional arguments, while **kwargs is used for keyword arguments." },
+      { "q": "How do you use varargs in a function call?", "a": "You use the * operator before a variable or a list/tuple of arguments to pass them as varargs." }
+    ]
+  },
+  {
+    "id": 13,
+    "displayed_info": "This topic explains how to use variable arguments in functions using the *numbers and **keywords syntax, demonstrating their usage through examples.",
+    "flashcards": [
+      { "q": "What is the syntax for using variable arguments in a function?", "a": "The syntax uses *numbers for positional arguments and **keywords for keyword arguments." },
+      { "q": "How do you define a function that accepts variable positional arguments?", "a": "Use the *args syntax in the function definition." },
+      { "q": "How do you define a function that accepts variable keyword arguments?", "a": "Use the **kwargs syntax in the function definition." },
+      { "q": "What is the purpose of *args and **kwargs?", "a": "*args allows passing a variable number of non-keyworded arguments, while **kwargs allows passing a variable number of keyworded arguments." },
+      { "q": "How do you access the variable arguments in a function?", "a": "You can access *args as a tuple and **kwargs as a dictionary within the function." },
+      { "q": "Can you mix *args and **kwargs in a function definition?", "a": "Yes, you can define a function with both *args and **kwargs." }
+    ]
+  },
+  {
+    "id": 14,
+    "displayed_info": "This topic explains how to use modules in Python, including importing modules and accessing their functionalities through the sys module.",
+    "flashcards": [
+      { "q": "What is a module in Python?", "a": "A module is a file containing Python definitions and statements." },
+      { "q": "How do you import a module?", "a": "You use the import statement followed by the module name." },
+      { "q": "What is the purpose of the sys module?", "a": "The sys module provides access to some variables used or maintained by the Python interpreter and to functions that interact strongly with the interpreter." },
+      { "q": "What is the argv attribute in the sys module?", "a": "The argv attribute is a list in the sys module that contains the command-line arguments passed to the script." },
+      { "q": "What is the role of sys.path?", "a": "sys.path is a list in the sys module that contains the search path for modules." },
+      { "q": "How do you import a specific function from a module?", "a": "You use the from ... import statement to import a specific function from a module." }
+    ]
+  }
+]

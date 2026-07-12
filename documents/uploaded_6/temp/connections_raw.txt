@@ -1,0 +1,856 @@
+[]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+ beğenilme puanı: 0
+
+Based on the given topics, here are the conceptual relationships:
+
+1. Photosynthesis and Cell Respiration are both processes that occur in cells and are related to energy production in organisms.
+2. Mitosis and DNA Replication are both related to cell division and genetic material.
+3. Photosynthesis and DNA Replication are both fundamental processes in the life cycle of plants.
+4. Cell Respiration and Mitosis are both crucial for the survival and reproduction of cells.
+
+Output in JSON format:
+
+[
+  [1, 2],
+  [3, 4],
+  [1, 4],
+  [2, 3]
+]
+user
+[
+  [1, 2],
+  [3, 4],
+  [1, 4],
+  [2, 3]
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+ beğenilme puanı: 0
+
+Based on the given topics, here are the conceptual relationships:
+
+1. Photosynthesis and Cell Respiration are both processes that occur in cells and are related to energy production in organisms.
+2. Mitosis and DNA Replication are both related to cell division and genetic material.
+3. Photosynthesis and DNA Replication are both fundamental processes in the life cycle of plants.
+4. Cell Respiration and Mitosis are both crucial for the survival and reproduction of cells.
+
+Output in JSON format:
+
+```json
+[
+  [1, 2],
+  [3, 4],
+  [1, 4],
+  [2, 3]
+]
+```
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {
+    "id": 3,
+    "name": "Mitosis"
+  },
+  {
+    "id": 4,
+    "name": "DNA Replication"
+  }
+]
+user
+Here is the list of topics:
+[
+  {
+    "id": 1,
+    "name": "Photosynthesis"
+  },
+  {
+    "id": 2,
+    "name": "Cell Respiration"
+  },
+  {

@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Hackathon Setup Guide",
+    "description": "This guide provides step-by-step instructions on setting up Featherless.ai for use in a hackathon, including signing up for the service, obtaining an API key, and choosing a model.",
+    "keywords": [
+      "Hackathon",
+      "Featherless.ai",
+      "API Key",
+      "Model Selection"
+    ],
+    "context": [
+      "sign up",
+      "API key",
+      "model catalog"
+    ]
+  },
+  {
+    "name": "API Usage",
+    "description": "The guide explains how to make API calls using Python Requests and OpenAI SDK, providing examples for chat completions and model selection.",
+    "keywords": [
+      "API Call",
+      "Python Requests",
+      "OpenAI SDK",
+      "Chat Completion"
+    ],
+    "context": [
+      "API key",
+      "model ID",
+      "chat.completions.create"
+    ]
+  },
+  {
+    "name": "Core API Endpoints",
+    "description": "The guide details the core API endpoints for Featherless.ai, including /v1/chat/completions and /v1/completions, and their use cases.",
+    "keywords": [
+      "Core API Endpoints",
+      "v1/chat/completions",
+      "v1/completions"
+    ],
+    "context": [
+      "chatbot",
+      "content generation",
+      "data extraction"
+    ]
+  },
+  {
+    "name": "Troubleshooting",
+    "description": "Common errors and their solutions are provided, including 401 Unauthenticated, 403 Unauthorized, and 500 Internal Server Error.",
+    "keywords": [
+      "Troubleshooting",
+      "Common Errors",
+      "401 Unauthenticated",
+      "403 Unauthorized"
+    ],
+    "context": [
+      "API key",
+      "model page",
+      "license terms"
+    ]
+  },
+  {
+    "name": "Concurrency Limits",
+    "description": "The guide explains Featherless.ai's concurrency limits based on subscription tier and model type, ensuring consistent performance.",
+    "keywords": [
+      "Concurrency Limits",
+      "Subscription Tier",
+      "Model Concurrency"
+    ],
+    "context": [
+      "capacity reservation",
+      "token-based billing",
+      "model inference calls"
+    ]
+  },
+  {
+    "name": "Application Guides",
+    "description": "Detailed guides are available to help integrate Featherless.ai into existing projects and workflows.",
+    "keywords": [
+      "Application Guides",
+      "Documentation",
+      "GitHub"
+    ],
+    "context": [
+      "integration",
+      "projects",
+      "workflows"
+    ]
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Hackathon Setup Guide",
+    "description": "This guide provides a step-by-step process for setting up Featherless.ai, an AI inference platform, including signing up for the service, obtaining an API key, and choosing a model for your use case. It also covers API usage, concurrency limits, and application integration.",
+    "keywords": [
+      "Featherless.ai",
+      "Hackathon",
+      "Setup Guide",
+      "API",
+      "Python Requests",
+      "OpenAI SDK",
+      "API endpoints",
+      "Concurrency Limits",
+      "model concurrency",
+      "subscription tier",
+      "integration",
+      "existing projects"
+    ],
+    "context": [
+      "serverless AI platform",
+      "unlimited access to open-source AI models",
+      "API key",
+      "model catalog",
+      "chat completions",
+      "content generation",
+      "data extraction",
+      "7B to 15B",
+      "24B to 34B",
+      "70B and 72B",
+      "seamless integration",
+      "documentation page"
+    ]
+  },
+  {
+    "name": "API Usage",
+    "description": "The guide explains how to make API calls using Python Requests and OpenAI SDK, detailing the core API endpoints and their best use cases.",
+    "keywords": [
+      "API",
+      "Python Requests",
+      "OpenAI SDK",
+      "API endpoints"
+    ],
+    "context": [
+      "chat completions",
+      "content generation",
+      "data extraction"
+    ]
+  },
+  {
+    "name": "Troubleshooting",
+    "description": "Common errors and their solutions are provided, including 401 and 403 errors, internal server errors, and concurrency limits.",
+    "keywords": [
+      "Troubleshooting",
+      "Common Errors",
+      "401 - Unauthenticated",
+      "403 - Unauthorized"
+    ],
+    "context": [
+      "API key not recognized",
+      "model is gated",
+      "insufficient capacity"
+    ]
+  },
+  {
+    "name": "Concurrency Limits",
+    "description": "The guide explains Featherless.ai's unique model of capacity reservation and the costs associated with different model concurrency levels.",
+    "keywords": [
+      "Concurrency Limits",
+      "model concurrency",
+      "subscription tier"
+    ],
+    "context": [
+      "7B to 15B",
+      "24B to 34B",
+      "70B and 72B"
+    ]
+  },
+  {
+    "name": "Application Guides",
+    "description": "Detailed guides are available to help integrate Featherless.ai into existing projects and workflows, with examples and documentation.",
+    "keywords": [
+      "Application Guides",
+      "integration",
+      "existing projects"
+    ],
+    "context": [
+      "seamless integration",
+      "documentation page"
+    ]
+  }
+]

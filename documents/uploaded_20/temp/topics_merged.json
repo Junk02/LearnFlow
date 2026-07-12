@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Hackathon Setup Guide",
+    "description": "This guide provides a step-by-step process for setting up Featherless.ai, an AI inference platform, including signing up for a premium account, obtaining an API key, and choosing a model for your use case. It covers the serverless AI platform, offering unlimited access to open-source AI models with concurrency limits.",
+    "keywords": [
+      "Hackathon Setup",
+      "Featherless.ai",
+      "API Key",
+      "Model Selection"
+    ],
+    "context": [
+      "serverless AI platform",
+      "unlimited access to open-source AI models",
+      "concurrency limits"
+    ]
+  }
+]

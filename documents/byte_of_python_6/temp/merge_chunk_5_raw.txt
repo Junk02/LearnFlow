@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Data Structures in Python",
+        "description": "Data structures in Python include lists, tuples, dictionaries, and sets, which are used to store collections of related data. Lists are used to store and manipulate collections of items. They can be iterated through using loops, appended to, sorted, and items can be removed using the del statement. Tuples are immutable like strings and can be indexed and their length can be determined using the len function. Dictionaries are mutable collections of key-value pairs that allow for efficient look-up and deletion of key-value pairs. Sets are unordered collections used for membership testing, subset checking, and intersection operations.",
+        "keywords": ["data structures", "lists", "tuples", "dictionaries", "sets", "append", "sort", "del statement", "len function", "key-value pairs", "membership", "subset", "intersection"],
+        "context": ["storing data", "mutable data types", "shopping list", "items of the list", "sequence", "mutable", "animals in the zoo", "nested tuples", "singleton tuple", "address book", "address or contact details", "brazil", "russia", "india", "chinese set"]
+    },
+    {
+        "name": "List Operations",
+        "description": "An example of using a list in Python, including operations like appending, sorting, and accessing elements. Lists are used to store and manipulate collections of items. They can be iterated through using loops, appended to, sorted, and items can be removed using the del statement.",
+        "keywords": ["list", "append", "sort", "access elements", "for..in loop", "del statement"],
+        "context": ["shopping list", "example code", "items of the list", "sequence", "mutable"]
+    },
+    {
+        "name": "Sequences in Python",
+        "description": "Sequences like lists, tuples, and strings support membership tests, indexing, and slicing operations to access and manipulate elements. Python allows indexing and slicing of sequences to access specific elements or sub-sequences. Indexing starts from 0, and negative indices count from the end. Slicing uses a colon to define a range, with the start and end positions determining the slice.",
+        "keywords": ["sequences", "lists", "tuples", "strings", "membership tests", "indexing", "slicing", "negative indices"],
+        "context": ["sequences": "shoplist", "name", "slice operation"]
+    }
+]

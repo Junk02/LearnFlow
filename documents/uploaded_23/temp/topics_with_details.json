@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Hackathon Setup Guide",
+    "description": "This guide provides a step-by-step process for setting up Featherless.ai, an AI inference platform, including signing up for a premium account, obtaining an API key, and choosing a model.",
+    "keywords": [
+      "Hackathon Setup",
+      "Featherless.ai",
+      "API Key",
+      "Model Selection"
+    ],
+    "context": [
+      "serverless AI platform",
+      "unlimited access to open-source AI models",
+      "concurrency limits"
+    ],
+    "id": 0,
+    "displayed_info": "This guide provides a step-by-step process for setting up Featherless.ai, an AI inference platform, including signing up for a premium account, obtaining an API key, and choosing a model. Featherless.ai is a serverless AI platform that offers unlimited access to open-source AI models but has concurrency limits.",
+    "flashcards": [
+      {
+        "q": "What is Featherless.ai?",
+        "a": "Featherless.ai is a serverless AI platform."
+      },
+      {
+        "q": "What does Featherless.ai offer?",
+        "a": "Unlimited access to open-source AI models."
+      },
+      {
+        "q": "What is required to use Featherless.ai?",
+        "a": "A premium account and an API key."
+      },
+      {
+        "q": "What is the purpose of obtaining an API key?",
+        "a": "To access the platform's services."
+      },
+      {
+        "q": "What is the next step after obtaining an API key?",
+        "a": "Choose a model."
+      },
+      {
+        "q": "What are the limitations of Featherless.ai?",
+        "a": "Concurrency limits."
+      },
+      {
+        "q": "What is the first step in setting up Featherless.ai?",
+        "a": "Sign up for a premium account."
+      },
+      {
+        "q": "What is the second step in setting up Featherless.ai?",
+        "a": "Obtain an API key."
+      },
+      {
+        "q": "What is the third step in setting up Featherless.ai?",
+        "a": "Choose a model."
+      }
+    ]
+  }
+]
