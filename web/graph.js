@@ -13,6 +13,10 @@ const siteFooter = document.getElementById('siteFooter');
 let NodesArray = [];
 let data = null;
 let currentOpenNodeId = null;
+let network = null;
+
+// Переменная для отслеживания перетаскиваемой вершины
+let draggingNodeId = null;
 
 const COLOR_DEFAULT = '#6366f1';
 const COLOR_FROZEN = '#f59e0b';
@@ -110,15 +114,21 @@ function InitRandomGraph() {
         physics: {
             solver: 'barnesHut',
             barnesHut: {
-                gravitationalConstant: -10000, 
+                gravitationalConstant: -8000, 
                 centralGravity: 0.01,          
                 springLength: 180,             
-                springConstant: 0.01,          
-                damping: 0.3 
+                springConstant: 0.005,          
+                damping: 0.09 
             },
+            maxVelocity: 50,
+            minVelocity: 0.05,
+            timestep: 0.35,
             stabilization: {
+                enabled: true,
                 iterations: 150,
-                updateInterval: 25
+                updateInterval: 25,
+                onlyDynamicEdges: false,
+                fit: true
             }
         },
         interaction: {
@@ -129,42 +139,107 @@ function InitRandomGraph() {
         }
     };
 
-    const network = new vis.Network(networkContainer, data, options);
+    network = new vis.Network(networkContainer, data, options);
 
-    network.on("dragEnd", function (params) {
-        if (params.nodes.length > 0) {
-            const nodeId = params.nodes[0];
-            data.nodes.update({ 
-                id: nodeId, 
-                fixed: { x: true, y: true },
-                color: {
-                    background: COLOR_FROZEN,
-                    border: COLOR_FROZEN
-                }
-            });
+    // Отслеживаем начало и конец перетаскивания
+    network.on('dragStart', function(params) {
+        if (params.nodes && params.nodes.length > 0) {
+            draggingNodeId = params.nodes[0];
         }
     });
 
-    network.on("doubleClick", function (params) {
-        if (params.nodes.length > 0) {
-            const nodeId = params.nodes[0];
-            data.nodes.update({ 
-                id: nodeId, 
-                fixed: { x: false, y: false },
-                color: {
-                    background: COLOR_DEFAULT,
-                    border: COLOR_DEFAULT
-                }
-            });
-        }
+    network.on('dragEnd', function(params) {
+        // dragEnd может приходить с пустым params.nodes, поэтому сбрасываем всегда
+        draggingNodeId = null;
     });
 
     network.on("click", function (params) {
-        if (params.nodes.length > 0) {
+        if (params.nodes && params.nodes.length > 0) {
             const clickedNodeId = params.nodes[0];
             ShowNodeDetails(clickedNodeId);
         } else {
             CloseNodeCard();
+        }
+    });
+
+    // Обработчик клавиши F: поддерживает фриз как для выбранной, так и для перетаскиваемой вершины
+    window.addEventListener("keydown", function(event) {
+        if (event.key.toLowerCase() === 'f') {
+            // Выбираем сначала выделенную вершину, иначе — ту, что перетаскивается
+            let selectedNodes = [];
+            try {
+                selectedNodes = network.getSelectedNodes() || [];
+            } catch (e) {
+                selectedNodes = [];
+            }
+
+            let nodeId = null;
+            if (selectedNodes.length > 0) {
+                nodeId = selectedNodes[0];
+            } else if (draggingNodeId !== null) {
+                nodeId = draggingNodeId;
+            }
+
+            if (nodeId === null) return;
+
+            const nodeData = data.nodes.get(nodeId) || {};
+            const isFrozen = nodeData.fixed && nodeData.fixed.x === true;
+
+            // Если вершина перетаскивалась — корректно завершаем drag
+            try {
+                if (typeof network.releaseNode === 'function') {
+                    network.releaseNode();
+                } else if (typeof network.unselectAll === 'function') {
+                    // fallback: снимаем выделение, чтобы прервать возможные состояния
+                    network.unselectAll();
+                }
+            } catch (e) {
+                // игнорируем ошибки API
+            }
+
+            // Получаем текущие координаты вершины
+            let pos = null;
+            try {
+                const positions = network.getPositions([nodeId]);
+                pos = positions ? positions[nodeId] : null;
+            } catch (e) {
+                pos = null;
+            }
+
+            // Формируем обновление узла
+            const update = {
+                id: nodeId,
+                fixed: { x: !isFrozen, y: !isFrozen },
+                color: {
+                    background: isFrozen ? COLOR_DEFAULT : COLOR_FROZEN,
+                    border: isFrozen ? COLOR_DEFAULT : COLOR_FROZEN
+                }
+            };
+
+            // Если мы фризим (переключаем в true) — явно задаём координаты, чтобы зафиксировать в текущем месте
+            if (!isFrozen && pos) {
+                update.x = pos.x;
+                update.y = pos.y;
+            }
+
+            // Если мы размораживаем — не трогаем x/y (физика сможет двигать узел дальше)
+            data.nodes.update(update);
+
+            // Обнуляем скорость и силы в теле сети, чтобы узел не "рывком" уехал
+            try {
+                const bodyNode = network.body && network.body.nodes ? network.body.nodes[nodeId] : null;
+                if (bodyNode) {
+                    bodyNode.vx = 0;
+                    bodyNode.vy = 0;
+                    bodyNode.fx = 0;
+                    bodyNode.fy = 0;
+                }
+            } catch (e) {
+                // игнорируем
+            }
+
+            // Сбрасываем переменную перетаскивания
+            draggingNodeId = null;
         }
     });
 }
@@ -225,6 +300,8 @@ function UnfreezeAllNodes() {
     });
 
     data.nodes.update(updates);
+    // Сброс переменной перетаскивания на всякий случай
+    draggingNodeId = null;
 }
 
 function ShowNodeDetails(nodeId) {
