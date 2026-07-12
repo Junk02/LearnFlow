@@ -37,36 +37,26 @@ function SkipLoading() {
     graphSection.style.height = '100vh';
     graphSection.style.padding = '0';
     
-    InitRandomGraph();
+    InitGraphFromBackend();
 }
 
-function InitRandomGraph() {
-    NodesArray = [];
-    const edgesArray = [];
-    const nodeCount = 30;
+async function InitGraphFromBackend() {
 
-    for (let i = 1; i <= nodeCount; i++) {
-        NodesArray.push({
-            id: i,
-            label: "Concept #" + i,
-            title: "Concept #" + i,
-            description: "This is a randomly generated description for Concept #" + i + ". When connected to the backend, this will show real definitions from the textbook."
-        });
-    }
+    const response = await fetch("http://localhost:8000/graph");
+    const graphData = await response.json();
 
-    for (let i = 1; i <= nodeCount; i++) {
-        const target1 = Math.floor(Math.random() * nodeCount) + 1;
-        const target2 = Math.floor(Math.random() * nodeCount) + 1;
+    NodesArray = graphData.nodes.map(n => ({
+        id: n.id,
+        label: n.name,
+        title: n.name,
+        description: n.displayed_info,
+        flashcards: n.flashcards
+    }));
 
-        if (i !== target1) {
-            edgesArray.push({ from: i, to: target1 });
-        }
-        if (i !== target2) {
-            if (target1 !== target2) {
-                edgesArray.push({ from: i, to: target2 });
-            }
-        }
-    }
+    const edgesArray = graphData.edges.map(edge => ({
+        from: edge[0],
+        to: edge[1]
+    }));
 
     data = {
         nodes: new vis.DataSet(NodesArray),
@@ -76,46 +66,46 @@ function InitRandomGraph() {
     const options = {
         nodes: {
             shape: 'dot',
-            size: 8, 
-            borderWidth: 0, 
-            borderWidthSelected: 2, 
+            size: 8,
+            borderWidth: 0,
+            borderWidthSelected: 2,
             font: {
-                color: '#94a3b8', 
-                size: 11, 
+                color: '#94a3b8',
+                size: 11,
                 face: 'inherit',
-                vadjust: 14 
+                vadjust: 14
             },
             color: {
-                background: COLOR_DEFAULT, 
+                background: COLOR_DEFAULT,
                 border: COLOR_DEFAULT,
                 highlight: {
-                    background: '#a855f7', 
+                    background: '#a855f7',
                     border: '#ffffff'
                 },
                 hover: {
-                    background: '#a855f7', 
+                    background: '#a855f7',
                     border: '#a855f7'
                 }
             },
-            shadow: false 
+            shadow: false
         },
         edges: {
             width: 1,
             color: {
-                color: 'rgba(148, 163, 184, 0.15)', 
-                highlight: 'rgba(168, 85, 247, 0.6)', 
+                color: 'rgba(148, 163, 184, 0.15)',
+                highlight: 'rgba(168, 85, 247, 0.6)',
                 hover: 'rgba(168, 85, 247, 0.4)'
             },
-            smooth: false 
+            smooth: false
         },
         physics: {
             solver: 'barnesHut',
             barnesHut: {
-                gravitationalConstant: -8000, 
-                centralGravity: 0.01,          
-                springLength: 180,             
-                springConstant: 0.005,          
-                damping: 0.09 
+                gravitationalConstant: -8000,
+                centralGravity: 0.01,
+                springLength: 180,
+                springConstant: 0.005,
+                damping: 0.09
             },
             maxVelocity: 50,
             minVelocity: 0.05,
@@ -154,8 +144,8 @@ function InitRandomGraph() {
                 const nodeId = selectedNodes[0];
                 const nodeData = data.nodes.get(nodeId);
                 const isFrozen = nodeData.fixed && nodeData.fixed.x === true;
-                data.nodes.update({ 
-                    id: nodeId, 
+                data.nodes.update({
+                    id: nodeId,
                     fixed: { x: !isFrozen, y: !isFrozen },
                     color: {
                         background: isFrozen ? COLOR_DEFAULT : COLOR_FROZEN,
