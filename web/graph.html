@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Processing Book... - LearnFlow</title>
+    <title>Interactive Graph - LearnFlow</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="graph.css">
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 </head>
 <body>
 
@@ -14,11 +15,58 @@
         <div class="glow-sphere sphere-2"></div>
     </div>
 
-    <main class="loading-container">
-        <div class="spinner"></div>
-        <h1 class="loading-text">Analyzing your book</h1>
-        <p class="loading-subtext">Our AI is extracting concepts and building the interactive graph. Please wait...</p>
+    <header class="site-header" id="siteHeader">
+        <div class="header-container">
+            <a href="index.html" class="logo" style="text-decoration: none;">
+                <span>⚡ LearnFlow</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="index.html" class="btn-link" style="text-decoration: none;">Home</a>
+                <a href="aboutus.html" class="btn-link" style="text-decoration: none;">About Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="mainContent">
+        <div class="loading-container" id="loadingSection">
+            <div class="spinner"></div>
+            <h1 class="loading-text">Analyzing your book</h1>
+            <p class="loading-subtext">Our AI is extracting concepts and building the interactive graph. Please wait...</p>
+            <button class="btn-skip" onclick="SkipLoading()">Skip Loading (Test Graph)</button>
+        </div>
     </main>
 
+    <section class="graph-section" id="graphSection" style="display: none;">
+        <button class="btn-unfreeze-all" id="unfreezeAllBtn" onclick="UnfreezeAllNodes()">❄️ Unfreeze All</button>
+
+        <div id="networkContainer"></div>
+
+        <div class="node-card" id="nodeCard" style="display: none;">
+            <button class="btn-close-card" onclick="CloseNodeCard()">✕</button>
+            
+            <div class="editable-wrapper">
+                <h3 class="node-card-title" id="cardTitle" placeholder="Enter title...">Concept Title</h3>
+                <button class="btn-edit" id="editTitleBtn" onclick="toggleEdit('cardTitle', 'editTitleBtn')">✏️</button>
+            </div>
+            
+            <hr class="card-divider">
+            
+            <div class="editable-wrapper">
+                <p class="node-card-desc" id="cardDesc" placeholder="Enter description here..."></p>
+                <button class="btn-edit" id="editDescBtn" onclick="toggleEdit('cardDesc', 'editDescBtn')">✏️</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer" id="siteFooter">
+        <div class="footer-credits">
+            <span>Created by</span>
+            <a href="https://github.com/Junk02" target="_blank" class="author-link junk">Junk02</a>
+            <span>and</span>
+            <a href="https://github.com/Pvkevra" target="_blank" class="author-link pvkevra">Pvkevra</a>
+        </div>
+    </footer>
+
+    <script src="graph.js"></script>
 </body>
 </html>
